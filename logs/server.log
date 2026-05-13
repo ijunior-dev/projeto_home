@@ -1,0 +1,56 @@
+2026-05-04 17:13:50,197 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 17:14:04,418 | INFO | Thread iniciada para ('192.168.1.8', 59007) | ativas=1
+2026-05-04 17:14:04,418 | INFO | [Thread-1 (handle_client)] Conexao recebida de ('192.168.1.8', 59007)
+2026-05-04 17:14:07,053 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.8: ping
+2026-05-04 17:14:07,053 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.8: pong
+2026-05-04 17:14:07,054 | ERROR | Erro ao salvar no Supabase: Invalid URL 'None/rest/v1/command_logs': No scheme supplied. Perhaps you meant https://None/rest/v1/command_logs?
+2026-05-04 17:14:08,637 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.8: ping
+2026-05-04 17:14:08,638 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.8: pong
+2026-05-04 17:14:08,638 | ERROR | Erro ao salvar no Supabase: Invalid URL 'None/rest/v1/command_logs': No scheme supplied. Perhaps you meant https://None/rest/v1/command_logs?
+2026-05-04 17:14:14,939 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.8: status
+2026-05-04 17:14:14,939 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.8: Servidor online | 04/05/2026 17:14:14
+2026-05-04 17:14:14,940 | ERROR | Erro ao salvar no Supabase: Invalid URL 'None/rest/v1/command_logs': No scheme supplied. Perhaps you meant https://None/rest/v1/command_logs?
+2026-05-04 17:14:19,604 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.8: status
+2026-05-04 17:14:19,604 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.8: Servidor online | 04/05/2026 17:14:19
+2026-05-04 17:14:19,604 | ERROR | Erro ao salvar no Supabase: Invalid URL 'None/rest/v1/command_logs': No scheme supplied. Perhaps you meant https://None/rest/v1/command_logs?
+2026-05-04 17:14:49,615 | WARNING | [Thread-1 (handle_client)] Timeout de conexao com 192.168.1.8
+2026-05-04 17:14:49,615 | INFO | [Thread-1 (handle_client)] Conexao encerrada com ('192.168.1.8', 59007)
+2026-05-04 19:25:59,332 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:26:22,250 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:26:35,891 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:27:44,229 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:29:12,564 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:37:32,787 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:38:00,221 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:41:23,172 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:42:18,714 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:44:39,359 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:45:02,785 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:46:45,509 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:50:09,232 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-04 19:50:48,169 | INFO | Thread iniciada para ('192.168.1.8', 63673) | ativas=1
+2026-05-04 19:50:48,169 | INFO | [Thread-1 (handle_client)] Conexao recebida de ('192.168.1.8', 63673)
+2026-05-04 19:50:51,497 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.8: ping
+2026-05-04 19:50:51,497 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.8: pong
+2026-05-04 19:50:51,603 | INFO | Supabase status=201
+2026-05-04 19:51:13,384 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.8: calc 4-4
+2026-05-04 19:51:13,384 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.8: resultado: 0
+2026-05-04 19:51:13,420 | INFO | Supabase status=201
+2026-05-04 19:51:19,311 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.8: status
+2026-05-04 19:51:19,311 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.8: Servidor online | 04/05/2026 19:51:19
+2026-05-04 19:51:19,335 | INFO | Supabase status=201
+2026-05-04 19:51:49,345 | WARNING | [Thread-1 (handle_client)] Timeout de conexao com 192.168.1.8
+2026-05-04 19:51:49,345 | INFO | [Thread-1 (handle_client)] Conexao encerrada com ('192.168.1.8', 63673)
+2026-05-11 19:57:47,027 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-11 20:29:39,107 | INFO | Thread iniciada para ('192.168.1.16', 57958) | ativas=1
+2026-05-11 20:29:39,107 | INFO | [Thread-1 (handle_client)] Conexao recebida de ('192.168.1.16', 57958)
+2026-05-11 20:29:51,400 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.16: ping
+2026-05-11 20:29:51,400 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.16: pong
+2026-05-11 20:29:51,445 | INFO | Supabase status=201
+2026-05-11 20:29:57,316 | INFO | [Thread-1 (handle_client)] Comando recebido de 192.168.1.16: exit
+2026-05-11 20:29:57,316 | INFO | [Thread-1 (handle_client)] Resposta enviada para 192.168.1.16: conexao encerrada
+2026-05-11 20:29:57,324 | INFO | Supabase status=201
+2026-05-11 20:29:57,324 | INFO | [Thread-1 (handle_client)] Conexao encerrada com ('192.168.1.16', 57958)
+2026-05-11 22:00:15,567 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-11 22:19:54,665 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-12 15:33:42,263 | INFO | Servidor iniciado em 0.0.0.0:5000

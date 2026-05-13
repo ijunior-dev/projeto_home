@@ -1,0 +1,10 @@
+item,description,machine,priority
+Instalar Docker,Instalar Docker Desktop no desktop (servidor),desktop,high
+Configurar WSL2,Habilitar WSL2 e instalar Ubuntu (se necessário),desktop,high
+Instalar Python,Instalar Python 3.11 e pip,both,high
+Instalar VSCode,"Editor e extensões Python, Remote - Containers",both,medium
+Instalar PostgreSQL,Postgres local ou Docker image,desktop,high
+Criar project FastAPI,Esqueleto app FastAPI dentro de container Docker,desktop,high
+Configurar supabase/local-db,"Criar schema, roles, migrations",desktop,high
+Configurar notebook cliente,"Python, requests, pgclient",notebook,medium
+Configurar GitHub,"Criar repo, .gitignore, actions CI",both,high

@@ -1,0 +1,6 @@
+title,summary,deliverables,price_estimate,timeline_weeks
+Automação de fluxo financeiro,"Scripts para importar, categorizar e reconciliar transações",script+docs+setup,R$2500-4000,2-4
+Relatórios financeiros agendados,API + scheduler que gera PDFs/CSV e envia por email,API+scheduler+email,R$3000-5000,3-4
+Integração bancária (web scraping),Bot Python que extrai dados e atualiza DB,bot+db+docs,R$2000-3500,2-3
+API de gestão de despesas,FastAPI + Postgres + autenticação,api+db+tests+docs,R$4000-7000,4-6
+Migração para Postgres/Supabase,"migrar CSVs/Excel para Postgres, criar schema",migration+schema+docs,R$1500-3000,1-2

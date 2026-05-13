@@ -1,0 +1,13 @@
+week,focus,tasks
+1,Python fundamentals,"types, functions, OOP, virtualenv"
+2,Advanced Python,"async, typing, testing, packaging"
+3,Databases,"Postgres, SQL, ORM (SQLAlchemy)"
+4,FastAPI basics,"routes, dependency injection, auth"
+5,FastAPI advanced,"background tasks, websockets, testing"
+6,Docker & DevOps,"Dockerfiles, compose, CI/CD basics"
+7,Deployment,"deploy on VPS/Render/Heroku, migrations"
+8,Security & Auth,"JWT, OAuth, roles, rate limiting"
+9,Performance & Scaling,"caching, connection pooling"
+10,Portfolio projects,"build 2 projects, docs, tests"
+11,Freelance proposals,"pricing, contracts, outreach"
+12,Review & Polish,"finalize portfolio, mock interviews"
