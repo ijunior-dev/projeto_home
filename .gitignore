@@ -1,2 +1,16 @@
 .env
 node_modules/
+
+# banco SQLite gerado pelos testes
+*.db
+test_auth.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+
+# Alembic
+alembic/versions/__pycache__/

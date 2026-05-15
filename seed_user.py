@@ -1,26 +1,30 @@
-# Serve para inserir um usuário admin inicial com senha em hash.
+import os
 
-from app.database import SessionLocal, engine, Base
-from app.models import User
-from app.security import get_password_hash
+os.environ.setdefault("DATABASE_URL", "postgresql://postgres:postgres@127.0.0.1:54322/postgres")
 
-Base.metadata.create_all(bind=engine)
+from app.database import Base, SessionLocal, engine  # noqa: E402
+from app.models import User  # noqa: E402
+from app.security import get_password_hash  # noqa: E402
 
-db = SessionLocal()
 
-user_exists = db.query(User).filter(User.username == "admin").first()
+def main():
+    Base.metadata.create_all(bind=engine)
+    db = SessionLocal()
+    try:
+        if not db.query(User).filter(User.username == "admin").first():
+            db.add(User(
+                username="admin",
+                email="admin@email.com",
+                hashed_password=get_password_hash("123456"),
+                is_active=True,
+            ))
+            db.commit()
+            print("Usuário admin criado com sucesso.")
+        else:
+            print("Usuário admin já existe.")
+    finally:
+        db.close()
 
-if not user_exists:
-    new_user = User(
-        username="admin",
-        email="admin@email.com",
-        hashed_password=get_password_hash("123456"),
-        is_active=True
-    )
-    db.add(new_user)
-    db.commit()
-    print("Usuário admin criado com sucesso.")
-else:
-    print("Usuário admin já existe.")
 
-db.close()
+if __name__ == "__main__":
+    main()

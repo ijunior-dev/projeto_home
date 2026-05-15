@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\PC-JR\\\\Desktop\\\\lab-supabase\" -Recurse -Force)",
+      "Bash(Select-Object FullName)",
+      "Bash(pip list *)",
+      "Bash(python -c \"import secrets; print\\(secrets.token_hex\\(32\\)\\)\")",
+      "Bash(pip install *)",
+      "Bash(alembic init *)",
+      "Bash(export JWT_SECRET_KEY=\"99f1a57f4846b5647fa0d76a9aae4b929c1db36d42fd4a9a0f0e7b4f65cc166f\")",
+      "Bash(export DATABASE_URL=\"postgresql://postgres:postgres@127.0.0.1:54322/postgres\")",
+      "Bash(alembic revision *)",
+      "Bash(alembic stamp *)",
+      "Bash(python -m pytest tests/ -v)"
+    ]
+  }
+}

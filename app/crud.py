@@ -1,4 +1,4 @@
-#Centraliza a busca de usuário no banco e a validação do login.abs
+#Centraliza a busca de usuário no banco e a validação do login.
 
 from sqlalchemy.orm import Session
 from app.models import User

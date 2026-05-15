@@ -20,8 +20,6 @@ SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 CLIENT_TIMEOUT = float(os.getenv("CLIENT_TIMEOUT", "30"))
 
-print("DEBUG URL:", SUPABASE_URL)
-print("DEBUG KEY EXISTS:", bool(SUPABASE_KEY))
 
 ALLOWED_OPERATORS = {
     ast.Add: operator.add,

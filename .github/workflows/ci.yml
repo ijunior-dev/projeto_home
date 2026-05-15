@@ -1,12 +1,8 @@
-#Esse workflow vai disparar automaticamente em push e pull_request para a branch main, 
-#que é um padrão suportado pela sintaxe oficial do GitHub Actions
-
 name: CI - FastAPI
 
 on:
   push:
   pull_request:
-  
 
 jobs:
   test:
@@ -21,11 +17,25 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Cache de dependências pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Atualizar pip
         run: python -m pip install --upgrade pip
 
       - name: Instalar dependências
         run: pip install -r requirements.txt
 
+      - name: Lint com ruff
+        run: ruff check app/ tests/
+
       - name: Rodar testes
-        run: python -m pytest tests/test_auth.py
+        env:
+          JWT_SECRET_KEY: ci-test-secret-key-not-for-production
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres
+        run: python -m pytest tests/ -v
