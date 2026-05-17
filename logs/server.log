@@ -56,3 +56,1356 @@
 2026-05-12 15:33:42,263 | INFO | Servidor iniciado em 0.0.0.0:5000
 2026-05-14 16:42:46,537 | INFO | Servidor iniciado em 0.0.0.0:5000
 2026-05-14 22:47:12,165 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-16 19:07:43,653 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-16 19:24:18,862 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-16 19:32:57,805 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-16 19:36:25,686 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-16 20:10:46,288 | INFO | Servidor iniciado em 0.0.0.0:5000
+2026-05-16 20:10:46,435 | INFO | [Thread-1 (handle_client)] conexão recebida de 127.0.0.1:58913
+2026-05-16 20:10:46,435 | INFO | Thread iniciada para ('127.0.0.1', 58913) | ativas=1
+2026-05-16 20:10:46,435 | INFO | [Thread-1 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:10:46,437 | WARNING | [Thread-1 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:10:51,208 | INFO | [Thread-2 (handle_client)] conexão recebida de 127.0.0.1:62751
+2026-05-16 20:10:51,208 | INFO | Thread iniciada para ('127.0.0.1', 62751) | ativas=1
+2026-05-16 20:10:51,208 | INFO | [Thread-2 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:10:51,208 | WARNING | [Thread-2 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:10:56,225 | INFO | [Thread-3 (handle_client)] conexão recebida de 127.0.0.1:62754
+2026-05-16 20:10:56,225 | INFO | Thread iniciada para ('127.0.0.1', 62754) | ativas=1
+2026-05-16 20:10:56,225 | INFO | [Thread-3 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:10:56,226 | WARNING | [Thread-3 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:00,962 | INFO | [Thread-4 (handle_client)] conexão recebida de 192.168.1.12:49466
+2026-05-16 20:11:00,962 | INFO | Thread iniciada para ('192.168.1.12', 49466) | ativas=1
+2026-05-16 20:11:00,962 | INFO | [Thread-4 (handle_client)] aguardando auth de 192.168.1.12
+2026-05-16 20:11:00,963 | INFO | [Thread-4 (handle_client)] auth_message decodificado: 'auth eyJhbGciOiJFUzI1NiIsImtpZCI6ImI4MTI2OWYxLTIxZDgtNGYyZS1iNzE5LWMyMjQwYTg0MGQ5MCIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjU0MzIxL2F1dGgvdjEiLCJzdWIiOiJiNGZlZTcwYy1jNDEwLTQxNWItOWY4Mi05ZmI0MjY4ZTQwZDgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzc4OTc2NjYwLCJpYXQiOjE3Nzg5NzMwNjAsImVtYWlsIjoianVuaW9yLnRlc3RlQGxvY2FsLmRldiIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnsiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzc4OTczMDYwfV0sInNlc3Npb25faWQiOiJiNTQyODlmYS0yMjZiLTRjZTAtYmQ4ZS1kNjFlNDE4Yjg1MDUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.fg9h4FY_ZzbWcSlo5BeJRn4Z4BFvC-fLZGz8ygCS0mT2Y3qF5mpmIyimiVA_8ESMxMTRWN5cATfNzEuZ71xrTA'
+2026-05-16 20:11:00,963 | INFO | [Thread-4 (handle_client)] token recebido? True | tamanho=778
+2026-05-16 20:11:01,023 | INFO | [Thread-4 (handle_client)] resultado validate_token: is_valid=True | result={'user_id': 'b4fee70c-c410-415b-9f82-9fb4268e40d8', 'email': 'junior.teste@local.dev', 'role': 'authenticated'}
+2026-05-16 20:11:01,023 | INFO | [Thread-4 (handle_client)] autenticação OK para 192.168.1.12 | user_id=b4fee70c-c410-415b-9f82-9fb4268e40d8 | email=junior.teste@local.dev
+2026-05-16 20:11:01,279 | INFO | [Thread-5 (handle_client)] conexão recebida de 127.0.0.1:62757
+2026-05-16 20:11:01,279 | INFO | Thread iniciada para ('127.0.0.1', 62757) | ativas=2
+2026-05-16 20:11:01,279 | INFO | [Thread-5 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:01,279 | WARNING | [Thread-5 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:06,213 | INFO | [Thread-6 (handle_client)] conexão recebida de 127.0.0.1:62759
+2026-05-16 20:11:06,213 | INFO | Thread iniciada para ('127.0.0.1', 62759) | ativas=2
+2026-05-16 20:11:06,213 | INFO | [Thread-6 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:06,213 | WARNING | [Thread-6 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:11,198 | INFO | [Thread-7 (handle_client)] conexão recebida de 127.0.0.1:61245
+2026-05-16 20:11:11,198 | INFO | Thread iniciada para ('127.0.0.1', 61245) | ativas=2
+2026-05-16 20:11:11,198 | INFO | [Thread-7 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:11,198 | WARNING | [Thread-7 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:16,264 | INFO | [Thread-8 (handle_client)] conexão recebida de 127.0.0.1:61248
+2026-05-16 20:11:16,264 | INFO | Thread iniciada para ('127.0.0.1', 61248) | ativas=2
+2026-05-16 20:11:16,264 | INFO | [Thread-8 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:16,264 | WARNING | [Thread-8 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:17,992 | INFO | [Thread-4 (handle_client)] comando recebido de 192.168.1.12 | user_id=b4fee70c-c410-415b-9f82-9fb4268e40d8 | email=junior.teste@local.dev | comando='ping'
+2026-05-16 20:11:18,002 | INFO | Supabase status=401
+2026-05-16 20:11:18,002 | ERROR | Erro ao salvar no Supabase: 401 Client Error: Unauthorized for url: http://127.0.0.1:54321/rest/v1/command_logs
+2026-05-16 20:11:21,276 | INFO | [Thread-9 (handle_client)] conexão recebida de 127.0.0.1:61251
+2026-05-16 20:11:21,276 | INFO | Thread iniciada para ('127.0.0.1', 61251) | ativas=2
+2026-05-16 20:11:21,277 | INFO | [Thread-9 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:21,277 | WARNING | [Thread-9 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:23,668 | INFO | [Thread-4 (handle_client)] comando recebido de 192.168.1.12 | user_id=b4fee70c-c410-415b-9f82-9fb4268e40d8 | email=junior.teste@local.dev | comando='status'
+2026-05-16 20:11:23,672 | INFO | Supabase status=401
+2026-05-16 20:11:23,672 | ERROR | Erro ao salvar no Supabase: 401 Client Error: Unauthorized for url: http://127.0.0.1:54321/rest/v1/command_logs
+2026-05-16 20:11:26,224 | INFO | [Thread-10 (handle_client)] conexão recebida de 127.0.0.1:61254
+2026-05-16 20:11:26,224 | INFO | Thread iniciada para ('127.0.0.1', 61254) | ativas=2
+2026-05-16 20:11:26,224 | INFO | [Thread-10 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:26,225 | WARNING | [Thread-10 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:27,477 | INFO | [Thread-4 (handle_client)] comando recebido de 192.168.1.12 | user_id=b4fee70c-c410-415b-9f82-9fb4268e40d8 | email=junior.teste@local.dev | comando='me'
+2026-05-16 20:11:27,483 | INFO | Supabase status=401
+2026-05-16 20:11:27,483 | ERROR | Erro ao salvar no Supabase: 401 Client Error: Unauthorized for url: http://127.0.0.1:54321/rest/v1/command_logs
+2026-05-16 20:11:31,265 | INFO | [Thread-11 (handle_client)] conexão recebida de 127.0.0.1:61037
+2026-05-16 20:11:31,265 | INFO | Thread iniciada para ('127.0.0.1', 61037) | ativas=2
+2026-05-16 20:11:31,265 | INFO | [Thread-11 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:31,265 | WARNING | [Thread-11 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:36,187 | INFO | [Thread-12 (handle_client)] conexão recebida de 127.0.0.1:61039
+2026-05-16 20:11:36,187 | INFO | Thread iniciada para ('127.0.0.1', 61039) | ativas=2
+2026-05-16 20:11:36,187 | INFO | [Thread-12 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:36,187 | WARNING | [Thread-12 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:41,215 | INFO | [Thread-13 (handle_client)] conexão recebida de 127.0.0.1:61041
+2026-05-16 20:11:41,215 | INFO | Thread iniciada para ('127.0.0.1', 61041) | ativas=2
+2026-05-16 20:11:41,216 | INFO | [Thread-13 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:41,216 | WARNING | [Thread-13 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:45,235 | INFO | [Thread-4 (handle_client)] comando recebido de 192.168.1.12 | user_id=b4fee70c-c410-415b-9f82-9fb4268e40d8 | email=junior.teste@local.dev | comando='calc 244*11'
+2026-05-16 20:11:45,239 | INFO | Supabase status=401
+2026-05-16 20:11:45,239 | ERROR | Erro ao salvar no Supabase: 401 Client Error: Unauthorized for url: http://127.0.0.1:54321/rest/v1/command_logs
+2026-05-16 20:11:46,269 | INFO | [Thread-14 (handle_client)] conexão recebida de 127.0.0.1:57050
+2026-05-16 20:11:46,269 | INFO | Thread iniciada para ('127.0.0.1', 57050) | ativas=2
+2026-05-16 20:11:46,269 | INFO | [Thread-14 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:46,269 | WARNING | [Thread-14 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:51,285 | INFO | [Thread-15 (handle_client)] conexão recebida de 127.0.0.1:57052
+2026-05-16 20:11:51,285 | INFO | Thread iniciada para ('127.0.0.1', 57052) | ativas=2
+2026-05-16 20:11:51,285 | INFO | [Thread-15 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:51,285 | WARNING | [Thread-15 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:11:56,194 | INFO | [Thread-16 (handle_client)] conexão recebida de 127.0.0.1:57054
+2026-05-16 20:11:56,194 | INFO | Thread iniciada para ('127.0.0.1', 57054) | ativas=2
+2026-05-16 20:11:56,194 | INFO | [Thread-16 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:11:56,194 | WARNING | [Thread-16 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:01,269 | INFO | [Thread-17 (handle_client)] conexão recebida de 127.0.0.1:57056
+2026-05-16 20:12:01,269 | INFO | Thread iniciada para ('127.0.0.1', 57056) | ativas=2
+2026-05-16 20:12:01,269 | INFO | [Thread-17 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:01,269 | WARNING | [Thread-17 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:06,218 | INFO | [Thread-18 (handle_client)] conexão recebida de 127.0.0.1:57058
+2026-05-16 20:12:06,218 | INFO | Thread iniciada para ('127.0.0.1', 57058) | ativas=2
+2026-05-16 20:12:06,219 | INFO | [Thread-18 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:06,219 | WARNING | [Thread-18 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:11,240 | INFO | [Thread-19 (handle_client)] conexão recebida de 127.0.0.1:57060
+2026-05-16 20:12:11,240 | INFO | Thread iniciada para ('127.0.0.1', 57060) | ativas=2
+2026-05-16 20:12:11,240 | INFO | [Thread-19 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:11,240 | WARNING | [Thread-19 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:15,249 | WARNING | [Thread-4 (handle_client)] timeout com cliente 192.168.1.12
+2026-05-16 20:12:16,224 | INFO | [Thread-20 (handle_client)] conexão recebida de 127.0.0.1:55597
+2026-05-16 20:12:16,224 | INFO | Thread iniciada para ('127.0.0.1', 55597) | ativas=1
+2026-05-16 20:12:16,224 | INFO | [Thread-20 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:16,238 | WARNING | [Thread-20 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:21,313 | INFO | [Thread-21 (handle_client)] conexão recebida de 127.0.0.1:55599
+2026-05-16 20:12:21,313 | INFO | Thread iniciada para ('127.0.0.1', 55599) | ativas=1
+2026-05-16 20:12:21,313 | INFO | [Thread-21 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:21,313 | WARNING | [Thread-21 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:26,259 | INFO | [Thread-22 (handle_client)] conexão recebida de 127.0.0.1:55604
+2026-05-16 20:12:26,260 | INFO | Thread iniciada para ('127.0.0.1', 55604) | ativas=1
+2026-05-16 20:12:26,260 | INFO | [Thread-22 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:26,260 | WARNING | [Thread-22 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:31,275 | INFO | [Thread-23 (handle_client)] conexão recebida de 127.0.0.1:51876
+2026-05-16 20:12:31,275 | INFO | Thread iniciada para ('127.0.0.1', 51876) | ativas=1
+2026-05-16 20:12:31,275 | INFO | [Thread-23 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:31,275 | WARNING | [Thread-23 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:36,199 | INFO | [Thread-24 (handle_client)] conexão recebida de 127.0.0.1:51878
+2026-05-16 20:12:36,199 | INFO | Thread iniciada para ('127.0.0.1', 51878) | ativas=1
+2026-05-16 20:12:36,200 | INFO | [Thread-24 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:36,200 | WARNING | [Thread-24 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:41,231 | INFO | [Thread-25 (handle_client)] conexão recebida de 127.0.0.1:49348
+2026-05-16 20:12:41,231 | INFO | Thread iniciada para ('127.0.0.1', 49348) | ativas=1
+2026-05-16 20:12:41,231 | INFO | [Thread-25 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:41,231 | WARNING | [Thread-25 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:46,263 | INFO | [Thread-26 (handle_client)] conexão recebida de 127.0.0.1:65178
+2026-05-16 20:12:46,263 | INFO | Thread iniciada para ('127.0.0.1', 65178) | ativas=1
+2026-05-16 20:12:46,263 | INFO | [Thread-26 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:46,276 | WARNING | [Thread-26 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:51,256 | INFO | [Thread-27 (handle_client)] conexão recebida de 127.0.0.1:60177
+2026-05-16 20:12:51,256 | INFO | Thread iniciada para ('127.0.0.1', 60177) | ativas=1
+2026-05-16 20:12:51,256 | INFO | [Thread-27 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:51,256 | WARNING | [Thread-27 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:12:56,266 | INFO | [Thread-28 (handle_client)] conexão recebida de 127.0.0.1:59822
+2026-05-16 20:12:56,266 | INFO | Thread iniciada para ('127.0.0.1', 59822) | ativas=1
+2026-05-16 20:12:56,267 | INFO | [Thread-28 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:12:56,267 | WARNING | [Thread-28 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:01,248 | INFO | [Thread-29 (handle_client)] conexão recebida de 127.0.0.1:59824
+2026-05-16 20:13:01,248 | INFO | Thread iniciada para ('127.0.0.1', 59824) | ativas=1
+2026-05-16 20:13:01,248 | INFO | [Thread-29 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:01,248 | WARNING | [Thread-29 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:06,223 | INFO | [Thread-30 (handle_client)] conexão recebida de 127.0.0.1:63467
+2026-05-16 20:13:06,223 | INFO | Thread iniciada para ('127.0.0.1', 63467) | ativas=1
+2026-05-16 20:13:06,223 | INFO | [Thread-30 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:06,223 | WARNING | [Thread-30 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:11,240 | INFO | [Thread-31 (handle_client)] conexão recebida de 127.0.0.1:63469
+2026-05-16 20:13:11,240 | INFO | Thread iniciada para ('127.0.0.1', 63469) | ativas=1
+2026-05-16 20:13:11,240 | INFO | [Thread-31 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:11,240 | WARNING | [Thread-31 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:16,243 | INFO | [Thread-32 (handle_client)] conexão recebida de 127.0.0.1:58433
+2026-05-16 20:13:16,243 | INFO | Thread iniciada para ('127.0.0.1', 58433) | ativas=1
+2026-05-16 20:13:16,243 | INFO | [Thread-32 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:16,244 | WARNING | [Thread-32 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:21,315 | INFO | [Thread-33 (handle_client)] conexão recebida de 127.0.0.1:58435
+2026-05-16 20:13:21,315 | INFO | Thread iniciada para ('127.0.0.1', 58435) | ativas=1
+2026-05-16 20:13:21,315 | INFO | [Thread-33 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:21,315 | WARNING | [Thread-33 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:26,265 | INFO | [Thread-34 (handle_client)] conexão recebida de 127.0.0.1:58437
+2026-05-16 20:13:26,265 | INFO | Thread iniciada para ('127.0.0.1', 58437) | ativas=1
+2026-05-16 20:13:26,265 | INFO | [Thread-34 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:26,265 | WARNING | [Thread-34 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:31,257 | INFO | [Thread-35 (handle_client)] conexão recebida de 127.0.0.1:59090
+2026-05-16 20:13:31,257 | INFO | Thread iniciada para ('127.0.0.1', 59090) | ativas=1
+2026-05-16 20:13:31,257 | INFO | [Thread-35 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:31,258 | WARNING | [Thread-35 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:36,197 | INFO | [Thread-36 (handle_client)] conexão recebida de 127.0.0.1:59092
+2026-05-16 20:13:36,197 | INFO | Thread iniciada para ('127.0.0.1', 59092) | ativas=1
+2026-05-16 20:13:36,197 | INFO | [Thread-36 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:36,219 | WARNING | [Thread-36 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:41,237 | INFO | [Thread-37 (handle_client)] conexão recebida de 127.0.0.1:50783
+2026-05-16 20:13:41,237 | INFO | Thread iniciada para ('127.0.0.1', 50783) | ativas=1
+2026-05-16 20:13:41,237 | INFO | [Thread-37 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:41,237 | WARNING | [Thread-37 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:46,249 | INFO | [Thread-38 (handle_client)] conexão recebida de 127.0.0.1:56697
+2026-05-16 20:13:46,249 | INFO | Thread iniciada para ('127.0.0.1', 56697) | ativas=1
+2026-05-16 20:13:46,249 | INFO | [Thread-38 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:46,249 | WARNING | [Thread-38 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:51,223 | INFO | [Thread-39 (handle_client)] conexão recebida de 127.0.0.1:51493
+2026-05-16 20:13:51,223 | INFO | Thread iniciada para ('127.0.0.1', 51493) | ativas=1
+2026-05-16 20:13:51,223 | INFO | [Thread-39 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:51,223 | WARNING | [Thread-39 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:13:56,257 | INFO | [Thread-40 (handle_client)] conexão recebida de 127.0.0.1:51495
+2026-05-16 20:13:56,257 | INFO | Thread iniciada para ('127.0.0.1', 51495) | ativas=1
+2026-05-16 20:13:56,257 | INFO | [Thread-40 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:13:56,257 | WARNING | [Thread-40 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:01,302 | INFO | [Thread-41 (handle_client)] conexão recebida de 127.0.0.1:51497
+2026-05-16 20:14:01,302 | INFO | Thread iniciada para ('127.0.0.1', 51497) | ativas=1
+2026-05-16 20:14:01,303 | INFO | [Thread-41 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:01,303 | WARNING | [Thread-41 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:06,204 | INFO | [Thread-42 (handle_client)] conexão recebida de 127.0.0.1:62937
+2026-05-16 20:14:06,204 | INFO | Thread iniciada para ('127.0.0.1', 62937) | ativas=1
+2026-05-16 20:14:06,205 | INFO | [Thread-42 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:06,220 | WARNING | [Thread-42 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:11,257 | INFO | [Thread-43 (handle_client)] conexão recebida de 127.0.0.1:62939
+2026-05-16 20:14:11,257 | INFO | Thread iniciada para ('127.0.0.1', 62939) | ativas=1
+2026-05-16 20:14:11,257 | INFO | [Thread-43 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:11,258 | WARNING | [Thread-43 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:16,277 | INFO | [Thread-44 (handle_client)] conexão recebida de 127.0.0.1:56558
+2026-05-16 20:14:16,277 | INFO | Thread iniciada para ('127.0.0.1', 56558) | ativas=1
+2026-05-16 20:14:16,277 | INFO | [Thread-44 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:16,277 | WARNING | [Thread-44 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:21,209 | INFO | [Thread-45 (handle_client)] conexão recebida de 127.0.0.1:56560
+2026-05-16 20:14:21,209 | INFO | Thread iniciada para ('127.0.0.1', 56560) | ativas=1
+2026-05-16 20:14:21,209 | INFO | [Thread-45 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:21,209 | WARNING | [Thread-45 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:26,254 | INFO | [Thread-46 (handle_client)] conexão recebida de 127.0.0.1:58315
+2026-05-16 20:14:26,254 | INFO | Thread iniciada para ('127.0.0.1', 58315) | ativas=1
+2026-05-16 20:14:26,254 | INFO | [Thread-46 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:26,254 | WARNING | [Thread-46 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:31,263 | INFO | [Thread-47 (handle_client)] conexão recebida de 127.0.0.1:58317
+2026-05-16 20:14:31,263 | INFO | Thread iniciada para ('127.0.0.1', 58317) | ativas=1
+2026-05-16 20:14:31,263 | INFO | [Thread-47 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:31,263 | WARNING | [Thread-47 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:36,206 | INFO | [Thread-48 (handle_client)] conexão recebida de 127.0.0.1:55933
+2026-05-16 20:14:36,206 | INFO | Thread iniciada para ('127.0.0.1', 55933) | ativas=1
+2026-05-16 20:14:36,206 | INFO | [Thread-48 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:36,206 | WARNING | [Thread-48 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:41,293 | INFO | [Thread-49 (handle_client)] conexão recebida de 127.0.0.1:55935
+2026-05-16 20:14:41,293 | INFO | Thread iniciada para ('127.0.0.1', 55935) | ativas=1
+2026-05-16 20:14:41,293 | INFO | [Thread-49 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:41,293 | WARNING | [Thread-49 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:46,228 | INFO | [Thread-50 (handle_client)] conexão recebida de 127.0.0.1:55937
+2026-05-16 20:14:46,229 | INFO | Thread iniciada para ('127.0.0.1', 55937) | ativas=1
+2026-05-16 20:14:46,229 | INFO | [Thread-50 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:46,229 | WARNING | [Thread-50 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:51,225 | INFO | [Thread-51 (handle_client)] conexão recebida de 127.0.0.1:58661
+2026-05-16 20:14:51,225 | INFO | Thread iniciada para ('127.0.0.1', 58661) | ativas=1
+2026-05-16 20:14:51,225 | INFO | [Thread-51 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:51,225 | WARNING | [Thread-51 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:14:56,222 | INFO | [Thread-52 (handle_client)] conexão recebida de 127.0.0.1:58663
+2026-05-16 20:14:56,222 | INFO | Thread iniciada para ('127.0.0.1', 58663) | ativas=1
+2026-05-16 20:14:56,222 | INFO | [Thread-52 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:14:56,222 | WARNING | [Thread-52 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:01,264 | INFO | [Thread-53 (handle_client)] conexão recebida de 127.0.0.1:58665
+2026-05-16 20:15:01,264 | INFO | Thread iniciada para ('127.0.0.1', 58665) | ativas=1
+2026-05-16 20:15:01,264 | INFO | [Thread-53 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:01,264 | WARNING | [Thread-53 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:06,187 | INFO | [Thread-54 (handle_client)] conexão recebida de 127.0.0.1:58667
+2026-05-16 20:15:06,187 | INFO | Thread iniciada para ('127.0.0.1', 58667) | ativas=1
+2026-05-16 20:15:06,187 | INFO | [Thread-54 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:06,187 | WARNING | [Thread-54 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:11,268 | INFO | [Thread-55 (handle_client)] conexão recebida de 127.0.0.1:58669
+2026-05-16 20:15:11,268 | INFO | Thread iniciada para ('127.0.0.1', 58669) | ativas=1
+2026-05-16 20:15:11,268 | INFO | [Thread-55 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:11,269 | WARNING | [Thread-55 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:16,256 | INFO | [Thread-56 (handle_client)] conexão recebida de 127.0.0.1:58671
+2026-05-16 20:15:16,256 | INFO | Thread iniciada para ('127.0.0.1', 58671) | ativas=1
+2026-05-16 20:15:16,256 | INFO | [Thread-56 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:16,257 | WARNING | [Thread-56 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:21,218 | INFO | [Thread-57 (handle_client)] conexão recebida de 127.0.0.1:59794
+2026-05-16 20:15:21,218 | INFO | Thread iniciada para ('127.0.0.1', 59794) | ativas=1
+2026-05-16 20:15:21,218 | INFO | [Thread-57 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:21,218 | WARNING | [Thread-57 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:26,207 | INFO | [Thread-58 (handle_client)] conexão recebida de 127.0.0.1:59796
+2026-05-16 20:15:26,207 | INFO | Thread iniciada para ('127.0.0.1', 59796) | ativas=1
+2026-05-16 20:15:26,208 | INFO | [Thread-58 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:26,208 | WARNING | [Thread-58 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:31,232 | INFO | [Thread-59 (handle_client)] conexão recebida de 127.0.0.1:59798
+2026-05-16 20:15:31,232 | INFO | Thread iniciada para ('127.0.0.1', 59798) | ativas=1
+2026-05-16 20:15:31,232 | INFO | [Thread-59 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:31,232 | WARNING | [Thread-59 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:36,257 | INFO | [Thread-60 (handle_client)] conexão recebida de 127.0.0.1:59800
+2026-05-16 20:15:36,257 | INFO | Thread iniciada para ('127.0.0.1', 59800) | ativas=1
+2026-05-16 20:15:36,257 | INFO | [Thread-60 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:36,257 | WARNING | [Thread-60 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:41,238 | INFO | [Thread-61 (handle_client)] conexão recebida de 127.0.0.1:59802
+2026-05-16 20:15:41,238 | INFO | Thread iniciada para ('127.0.0.1', 59802) | ativas=1
+2026-05-16 20:15:41,238 | INFO | [Thread-61 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:41,238 | WARNING | [Thread-61 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:46,255 | INFO | [Thread-62 (handle_client)] conexão recebida de 127.0.0.1:57067
+2026-05-16 20:15:46,255 | INFO | Thread iniciada para ('127.0.0.1', 57067) | ativas=1
+2026-05-16 20:15:46,255 | INFO | [Thread-62 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:46,255 | WARNING | [Thread-62 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:51,252 | INFO | [Thread-63 (handle_client)] conexão recebida de 127.0.0.1:57069
+2026-05-16 20:15:51,252 | INFO | Thread iniciada para ('127.0.0.1', 57069) | ativas=1
+2026-05-16 20:15:51,252 | INFO | [Thread-63 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:51,252 | WARNING | [Thread-63 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:15:56,212 | INFO | [Thread-64 (handle_client)] conexão recebida de 127.0.0.1:56983
+2026-05-16 20:15:56,212 | INFO | Thread iniciada para ('127.0.0.1', 56983) | ativas=1
+2026-05-16 20:15:56,212 | INFO | [Thread-64 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:15:56,212 | WARNING | [Thread-64 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:01,272 | INFO | [Thread-65 (handle_client)] conexão recebida de 127.0.0.1:55043
+2026-05-16 20:16:01,272 | INFO | Thread iniciada para ('127.0.0.1', 55043) | ativas=1
+2026-05-16 20:16:01,272 | INFO | [Thread-65 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:01,273 | WARNING | [Thread-65 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:06,210 | INFO | [Thread-66 (handle_client)] conexão recebida de 127.0.0.1:55045
+2026-05-16 20:16:06,210 | INFO | Thread iniciada para ('127.0.0.1', 55045) | ativas=1
+2026-05-16 20:16:06,210 | INFO | [Thread-66 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:06,210 | WARNING | [Thread-66 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:11,235 | INFO | [Thread-67 (handle_client)] conexão recebida de 127.0.0.1:55047
+2026-05-16 20:16:11,235 | INFO | Thread iniciada para ('127.0.0.1', 55047) | ativas=1
+2026-05-16 20:16:11,235 | INFO | [Thread-67 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:11,235 | WARNING | [Thread-67 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:16,196 | INFO | [Thread-68 (handle_client)] conexão recebida de 127.0.0.1:55051
+2026-05-16 20:16:16,196 | INFO | Thread iniciada para ('127.0.0.1', 55051) | ativas=1
+2026-05-16 20:16:16,196 | INFO | [Thread-68 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:16,196 | WARNING | [Thread-68 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:21,216 | INFO | [Thread-69 (handle_client)] conexão recebida de 127.0.0.1:64787
+2026-05-16 20:16:21,216 | INFO | Thread iniciada para ('127.0.0.1', 64787) | ativas=1
+2026-05-16 20:16:21,216 | INFO | [Thread-69 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:21,216 | WARNING | [Thread-69 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:26,222 | INFO | [Thread-70 (handle_client)] conexão recebida de 127.0.0.1:52344
+2026-05-16 20:16:26,222 | INFO | Thread iniciada para ('127.0.0.1', 52344) | ativas=1
+2026-05-16 20:16:26,222 | INFO | [Thread-70 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:26,222 | WARNING | [Thread-70 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:31,252 | INFO | [Thread-71 (handle_client)] conexão recebida de 127.0.0.1:55602
+2026-05-16 20:16:31,253 | INFO | Thread iniciada para ('127.0.0.1', 55602) | ativas=1
+2026-05-16 20:16:31,253 | INFO | [Thread-71 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:31,273 | WARNING | [Thread-71 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:36,257 | INFO | [Thread-72 (handle_client)] conexão recebida de 127.0.0.1:55604
+2026-05-16 20:16:36,257 | INFO | Thread iniciada para ('127.0.0.1', 55604) | ativas=1
+2026-05-16 20:16:36,258 | INFO | [Thread-72 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:36,279 | WARNING | [Thread-72 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:41,244 | INFO | [Thread-73 (handle_client)] conexão recebida de 127.0.0.1:55606
+2026-05-16 20:16:41,244 | INFO | Thread iniciada para ('127.0.0.1', 55606) | ativas=1
+2026-05-16 20:16:41,244 | INFO | [Thread-73 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:41,245 | WARNING | [Thread-73 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:46,266 | INFO | [Thread-74 (handle_client)] conexão recebida de 127.0.0.1:62408
+2026-05-16 20:16:46,267 | INFO | Thread iniciada para ('127.0.0.1', 62408) | ativas=1
+2026-05-16 20:16:46,267 | INFO | [Thread-74 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:46,267 | WARNING | [Thread-74 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:51,221 | INFO | [Thread-75 (handle_client)] conexão recebida de 127.0.0.1:62410
+2026-05-16 20:16:51,222 | INFO | [Thread-75 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:51,221 | INFO | Thread iniciada para ('127.0.0.1', 62410) | ativas=1
+2026-05-16 20:16:51,222 | WARNING | [Thread-75 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:16:56,216 | INFO | [Thread-76 (handle_client)] conexão recebida de 127.0.0.1:62412
+2026-05-16 20:16:56,216 | INFO | Thread iniciada para ('127.0.0.1', 62412) | ativas=1
+2026-05-16 20:16:56,216 | INFO | [Thread-76 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:16:56,216 | WARNING | [Thread-76 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:17:01,289 | INFO | [Thread-77 (handle_client)] conexão recebida de 127.0.0.1:62414
+2026-05-16 20:17:01,289 | INFO | Thread iniciada para ('127.0.0.1', 62414) | ativas=1
+2026-05-16 20:17:01,289 | INFO | [Thread-77 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:17:01,290 | WARNING | [Thread-77 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:17:06,188 | INFO | [Thread-78 (handle_client)] conexão recebida de 127.0.0.1:58957
+2026-05-16 20:17:06,188 | INFO | Thread iniciada para ('127.0.0.1', 58957) | ativas=1
+2026-05-16 20:17:06,188 | INFO | [Thread-78 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:17:06,188 | WARNING | [Thread-78 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,574 | INFO | [Thread-79 (handle_client)] conexão recebida de 127.0.0.1:56838
+2026-05-16 20:18:02,574 | INFO | Thread iniciada para ('127.0.0.1', 56838) | ativas=1
+2026-05-16 20:18:02,574 | INFO | [Thread-79 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,575 | WARNING | [Thread-79 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,575 | INFO | Thread iniciada para ('127.0.0.1', 56836) | ativas=2
+2026-05-16 20:18:02,575 | INFO | [Thread-80 (handle_client)] conexão recebida de 127.0.0.1:56836
+2026-05-16 20:18:02,575 | INFO | [Thread-80 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,575 | INFO | Thread iniciada para ('127.0.0.1', 56837) | ativas=2
+2026-05-16 20:18:02,575 | INFO | [Thread-81 (handle_client)] conexão recebida de 127.0.0.1:56837
+2026-05-16 20:18:02,575 | WARNING | [Thread-80 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,576 | INFO | [Thread-81 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,576 | INFO | [Thread-82 (handle_client)] conexão recebida de 127.0.0.1:56839
+2026-05-16 20:18:02,576 | INFO | Thread iniciada para ('127.0.0.1', 56839) | ativas=3
+2026-05-16 20:18:02,576 | WARNING | [Thread-81 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,576 | INFO | [Thread-82 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,577 | INFO | Thread iniciada para ('127.0.0.1', 56840) | ativas=3
+2026-05-16 20:18:02,577 | INFO | [Thread-83 (handle_client)] conexão recebida de 127.0.0.1:56840
+2026-05-16 20:18:02,577 | WARNING | [Thread-82 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,577 | INFO | [Thread-84 (handle_client)] conexão recebida de 127.0.0.1:56841
+2026-05-16 20:18:02,577 | INFO | [Thread-84 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,577 | INFO | Thread iniciada para ('127.0.0.1', 56841) | ativas=3
+2026-05-16 20:18:02,577 | INFO | [Thread-83 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,578 | WARNING | [Thread-84 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,578 | INFO | [Thread-85 (handle_client)] conexão recebida de 127.0.0.1:56843
+2026-05-16 20:18:02,578 | INFO | Thread iniciada para ('127.0.0.1', 56843) | ativas=3
+2026-05-16 20:18:02,579 | INFO | [Thread-85 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,578 | WARNING | [Thread-83 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,579 | INFO | [Thread-86 (handle_client)] conexão recebida de 127.0.0.1:56842
+2026-05-16 20:18:02,579 | INFO | Thread iniciada para ('127.0.0.1', 56842) | ativas=3
+2026-05-16 20:18:02,579 | WARNING | [Thread-85 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,579 | INFO | [Thread-86 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,580 | INFO | [Thread-87 (handle_client)] conexão recebida de 127.0.0.1:56844
+2026-05-16 20:18:02,580 | INFO | Thread iniciada para ('127.0.0.1', 56844) | ativas=3
+2026-05-16 20:18:02,580 | WARNING | [Thread-86 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,580 | INFO | [Thread-87 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,581 | WARNING | [Thread-87 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,581 | INFO | [Thread-88 (handle_client)] conexão recebida de 127.0.0.1:56845
+2026-05-16 20:18:02,581 | INFO | Thread iniciada para ('127.0.0.1', 56845) | ativas=2
+2026-05-16 20:18:02,581 | INFO | [Thread-88 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,581 | WARNING | [Thread-88 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,581 | INFO | [Thread-89 (handle_client)] conexão recebida de 127.0.0.1:56847
+2026-05-16 20:18:02,581 | INFO | Thread iniciada para ('127.0.0.1', 56847) | ativas=2
+2026-05-16 20:18:02,582 | INFO | [Thread-89 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,582 | INFO | [Thread-90 (handle_client)] conexão recebida de 127.0.0.1:56846
+2026-05-16 20:18:02,582 | WARNING | [Thread-89 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:02,582 | INFO | Thread iniciada para ('127.0.0.1', 56846) | ativas=2
+2026-05-16 20:18:02,582 | INFO | [Thread-90 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:02,582 | WARNING | [Thread-90 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:06,732 | INFO | [Thread-91 (handle_client)] conexão recebida de 127.0.0.1:50476
+2026-05-16 20:18:06,732 | INFO | Thread iniciada para ('127.0.0.1', 50476) | ativas=1
+2026-05-16 20:18:06,732 | INFO | [Thread-91 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:06,732 | WARNING | [Thread-91 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:11,761 | INFO | [Thread-92 (handle_client)] conexão recebida de 127.0.0.1:50478
+2026-05-16 20:18:11,761 | INFO | Thread iniciada para ('127.0.0.1', 50478) | ativas=1
+2026-05-16 20:18:11,761 | INFO | [Thread-92 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:11,761 | WARNING | [Thread-92 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:16,725 | INFO | [Thread-93 (handle_client)] conexão recebida de 127.0.0.1:50480
+2026-05-16 20:18:16,725 | INFO | Thread iniciada para ('127.0.0.1', 50480) | ativas=1
+2026-05-16 20:18:16,725 | INFO | [Thread-93 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:16,726 | WARNING | [Thread-93 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:21,772 | INFO | [Thread-94 (handle_client)] conexão recebida de 127.0.0.1:50482
+2026-05-16 20:18:21,772 | INFO | Thread iniciada para ('127.0.0.1', 50482) | ativas=1
+2026-05-16 20:18:21,772 | INFO | [Thread-94 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:21,772 | WARNING | [Thread-94 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:26,774 | INFO | [Thread-95 (handle_client)] conexão recebida de 127.0.0.1:63929
+2026-05-16 20:18:26,774 | INFO | Thread iniciada para ('127.0.0.1', 63929) | ativas=1
+2026-05-16 20:18:26,774 | INFO | [Thread-95 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:26,774 | WARNING | [Thread-95 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:31,726 | INFO | [Thread-96 (handle_client)] conexão recebida de 127.0.0.1:63931
+2026-05-16 20:18:31,726 | INFO | Thread iniciada para ('127.0.0.1', 63931) | ativas=1
+2026-05-16 20:18:31,726 | INFO | [Thread-96 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:31,726 | WARNING | [Thread-96 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:36,718 | INFO | [Thread-97 (handle_client)] conexão recebida de 127.0.0.1:63933
+2026-05-16 20:18:36,718 | INFO | Thread iniciada para ('127.0.0.1', 63933) | ativas=1
+2026-05-16 20:18:36,718 | INFO | [Thread-97 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:36,719 | WARNING | [Thread-97 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:41,788 | INFO | [Thread-98 (handle_client)] conexão recebida de 127.0.0.1:63935
+2026-05-16 20:18:41,788 | INFO | Thread iniciada para ('127.0.0.1', 63935) | ativas=1
+2026-05-16 20:18:41,788 | INFO | [Thread-98 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:41,788 | WARNING | [Thread-98 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:46,773 | INFO | [Thread-99 (handle_client)] conexão recebida de 127.0.0.1:50401
+2026-05-16 20:18:46,773 | INFO | Thread iniciada para ('127.0.0.1', 50401) | ativas=1
+2026-05-16 20:18:46,773 | INFO | [Thread-99 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:46,774 | WARNING | [Thread-99 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:51,724 | INFO | [Thread-100 (handle_client)] conexão recebida de 127.0.0.1:62650
+2026-05-16 20:18:51,724 | INFO | Thread iniciada para ('127.0.0.1', 62650) | ativas=1
+2026-05-16 20:18:51,725 | INFO | [Thread-100 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:51,725 | WARNING | [Thread-100 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:18:56,780 | INFO | [Thread-101 (handle_client)] conexão recebida de 127.0.0.1:62652
+2026-05-16 20:18:56,780 | INFO | Thread iniciada para ('127.0.0.1', 62652) | ativas=1
+2026-05-16 20:18:56,781 | INFO | [Thread-101 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:18:56,781 | WARNING | [Thread-101 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:02,062 | INFO | [Thread-102 (handle_client)] conexão recebida de 127.0.0.1:55440
+2026-05-16 20:19:02,062 | INFO | Thread iniciada para ('127.0.0.1', 55440) | ativas=1
+2026-05-16 20:19:02,062 | INFO | [Thread-102 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:02,062 | WARNING | [Thread-102 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:06,722 | INFO | [Thread-103 (handle_client)] conexão recebida de 127.0.0.1:62586
+2026-05-16 20:19:06,722 | INFO | Thread iniciada para ('127.0.0.1', 62586) | ativas=1
+2026-05-16 20:19:06,722 | INFO | [Thread-103 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:06,722 | WARNING | [Thread-103 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:11,733 | INFO | [Thread-104 (handle_client)] conexão recebida de 127.0.0.1:62588
+2026-05-16 20:19:11,733 | INFO | Thread iniciada para ('127.0.0.1', 62588) | ativas=1
+2026-05-16 20:19:11,733 | INFO | [Thread-104 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:11,744 | WARNING | [Thread-104 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:16,791 | INFO | [Thread-105 (handle_client)] conexão recebida de 127.0.0.1:62590
+2026-05-16 20:19:16,791 | INFO | Thread iniciada para ('127.0.0.1', 62590) | ativas=1
+2026-05-16 20:19:16,792 | INFO | [Thread-105 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:16,792 | WARNING | [Thread-105 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:21,722 | INFO | [Thread-106 (handle_client)] conexão recebida de 127.0.0.1:62592
+2026-05-16 20:19:21,722 | INFO | Thread iniciada para ('127.0.0.1', 62592) | ativas=1
+2026-05-16 20:19:21,722 | INFO | [Thread-106 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:21,722 | WARNING | [Thread-106 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:26,755 | INFO | [Thread-107 (handle_client)] conexão recebida de 127.0.0.1:59905
+2026-05-16 20:19:26,755 | INFO | Thread iniciada para ('127.0.0.1', 59905) | ativas=1
+2026-05-16 20:19:26,755 | INFO | [Thread-107 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:26,755 | WARNING | [Thread-107 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:31,785 | INFO | [Thread-108 (handle_client)] conexão recebida de 127.0.0.1:59907
+2026-05-16 20:19:31,785 | INFO | Thread iniciada para ('127.0.0.1', 59907) | ativas=1
+2026-05-16 20:19:31,785 | INFO | [Thread-108 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:31,785 | WARNING | [Thread-108 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:36,751 | INFO | [Thread-109 (handle_client)] conexão recebida de 127.0.0.1:59909
+2026-05-16 20:19:36,751 | INFO | Thread iniciada para ('127.0.0.1', 59909) | ativas=1
+2026-05-16 20:19:36,752 | INFO | [Thread-109 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:36,768 | WARNING | [Thread-109 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:41,724 | INFO | [Thread-110 (handle_client)] conexão recebida de 127.0.0.1:59911
+2026-05-16 20:19:41,724 | INFO | Thread iniciada para ('127.0.0.1', 59911) | ativas=1
+2026-05-16 20:19:41,724 | INFO | [Thread-110 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:41,724 | WARNING | [Thread-110 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:46,788 | INFO | [Thread-111 (handle_client)] conexão recebida de 127.0.0.1:55870
+2026-05-16 20:19:46,788 | INFO | Thread iniciada para ('127.0.0.1', 55870) | ativas=1
+2026-05-16 20:19:46,788 | INFO | [Thread-111 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:46,789 | WARNING | [Thread-111 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:51,786 | INFO | [Thread-112 (handle_client)] conexão recebida de 127.0.0.1:55872
+2026-05-16 20:19:51,786 | INFO | Thread iniciada para ('127.0.0.1', 55872) | ativas=1
+2026-05-16 20:19:51,786 | INFO | [Thread-112 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:51,786 | WARNING | [Thread-112 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:19:56,723 | INFO | [Thread-113 (handle_client)] conexão recebida de 127.0.0.1:55874
+2026-05-16 20:19:56,723 | INFO | Thread iniciada para ('127.0.0.1', 55874) | ativas=1
+2026-05-16 20:19:56,723 | INFO | [Thread-113 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:19:56,723 | WARNING | [Thread-113 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:01,777 | INFO | [Thread-114 (handle_client)] conexão recebida de 127.0.0.1:57948
+2026-05-16 20:20:01,777 | INFO | Thread iniciada para ('127.0.0.1', 57948) | ativas=1
+2026-05-16 20:20:01,777 | INFO | [Thread-114 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:01,777 | WARNING | [Thread-114 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:06,748 | INFO | [Thread-115 (handle_client)] conexão recebida de 127.0.0.1:57950
+2026-05-16 20:20:06,748 | INFO | Thread iniciada para ('127.0.0.1', 57950) | ativas=1
+2026-05-16 20:20:06,748 | INFO | [Thread-115 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:06,749 | WARNING | [Thread-115 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:11,742 | INFO | [Thread-116 (handle_client)] conexão recebida de 127.0.0.1:54540
+2026-05-16 20:20:11,742 | INFO | Thread iniciada para ('127.0.0.1', 54540) | ativas=1
+2026-05-16 20:20:11,742 | INFO | [Thread-116 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:11,742 | WARNING | [Thread-116 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:16,785 | INFO | [Thread-117 (handle_client)] conexão recebida de 127.0.0.1:60917
+2026-05-16 20:20:16,785 | INFO | Thread iniciada para ('127.0.0.1', 60917) | ativas=1
+2026-05-16 20:20:16,785 | INFO | [Thread-117 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:16,785 | WARNING | [Thread-117 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:21,804 | INFO | [Thread-118 (handle_client)] conexão recebida de 127.0.0.1:60919
+2026-05-16 20:20:21,804 | INFO | Thread iniciada para ('127.0.0.1', 60919) | ativas=1
+2026-05-16 20:20:21,805 | INFO | [Thread-118 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:21,805 | WARNING | [Thread-118 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:26,796 | INFO | [Thread-119 (handle_client)] conexão recebida de 127.0.0.1:65302
+2026-05-16 20:20:26,797 | INFO | Thread iniciada para ('127.0.0.1', 65302) | ativas=1
+2026-05-16 20:20:26,797 | INFO | [Thread-119 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:26,797 | WARNING | [Thread-119 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:31,739 | INFO | [Thread-120 (handle_client)] conexão recebida de 127.0.0.1:51005
+2026-05-16 20:20:31,739 | INFO | Thread iniciada para ('127.0.0.1', 51005) | ativas=1
+2026-05-16 20:20:31,739 | INFO | [Thread-120 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:31,739 | WARNING | [Thread-120 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:36,728 | INFO | [Thread-121 (handle_client)] conexão recebida de 127.0.0.1:62837
+2026-05-16 20:20:36,728 | INFO | Thread iniciada para ('127.0.0.1', 62837) | ativas=1
+2026-05-16 20:20:36,728 | INFO | [Thread-121 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:36,728 | WARNING | [Thread-121 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:41,731 | INFO | [Thread-122 (handle_client)] conexão recebida de 127.0.0.1:62839
+2026-05-16 20:20:41,731 | INFO | Thread iniciada para ('127.0.0.1', 62839) | ativas=1
+2026-05-16 20:20:41,731 | INFO | [Thread-122 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:41,731 | WARNING | [Thread-122 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:46,740 | INFO | [Thread-123 (handle_client)] conexão recebida de 127.0.0.1:61506
+2026-05-16 20:20:46,740 | INFO | Thread iniciada para ('127.0.0.1', 61506) | ativas=1
+2026-05-16 20:20:46,740 | INFO | [Thread-123 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:46,740 | WARNING | [Thread-123 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:51,790 | INFO | [Thread-124 (handle_client)] conexão recebida de 127.0.0.1:61508
+2026-05-16 20:20:51,790 | INFO | Thread iniciada para ('127.0.0.1', 61508) | ativas=1
+2026-05-16 20:20:51,790 | INFO | [Thread-124 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:51,790 | WARNING | [Thread-124 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:20:56,739 | INFO | [Thread-125 (handle_client)] conexão recebida de 127.0.0.1:61511
+2026-05-16 20:20:56,739 | INFO | Thread iniciada para ('127.0.0.1', 61511) | ativas=1
+2026-05-16 20:20:56,739 | INFO | [Thread-125 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:20:56,739 | WARNING | [Thread-125 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:01,746 | INFO | [Thread-126 (handle_client)] conexão recebida de 127.0.0.1:61513
+2026-05-16 20:21:01,746 | INFO | Thread iniciada para ('127.0.0.1', 61513) | ativas=1
+2026-05-16 20:21:01,746 | INFO | [Thread-126 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:01,763 | WARNING | [Thread-126 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:06,802 | INFO | [Thread-127 (handle_client)] conexão recebida de 127.0.0.1:61515
+2026-05-16 20:21:06,802 | INFO | Thread iniciada para ('127.0.0.1', 61515) | ativas=1
+2026-05-16 20:21:06,802 | INFO | [Thread-127 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:06,815 | WARNING | [Thread-127 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:11,725 | INFO | [Thread-128 (handle_client)] conexão recebida de 127.0.0.1:61518
+2026-05-16 20:21:11,726 | INFO | [Thread-128 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:11,725 | INFO | Thread iniciada para ('127.0.0.1', 61518) | ativas=1
+2026-05-16 20:21:11,726 | WARNING | [Thread-128 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:16,765 | INFO | [Thread-129 (handle_client)] conexão recebida de 127.0.0.1:61522
+2026-05-16 20:21:16,765 | INFO | Thread iniciada para ('127.0.0.1', 61522) | ativas=1
+2026-05-16 20:21:16,765 | INFO | [Thread-129 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:16,765 | WARNING | [Thread-129 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:21,802 | INFO | [Thread-130 (handle_client)] conexão recebida de 127.0.0.1:61524
+2026-05-16 20:21:21,802 | INFO | Thread iniciada para ('127.0.0.1', 61524) | ativas=1
+2026-05-16 20:21:21,802 | INFO | [Thread-130 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:21,802 | WARNING | [Thread-130 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:26,722 | INFO | [Thread-131 (handle_client)] conexão recebida de 127.0.0.1:61527
+2026-05-16 20:21:26,722 | INFO | Thread iniciada para ('127.0.0.1', 61527) | ativas=1
+2026-05-16 20:21:26,722 | INFO | [Thread-131 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:26,722 | WARNING | [Thread-131 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:31,786 | INFO | [Thread-132 (handle_client)] conexão recebida de 127.0.0.1:64998
+2026-05-16 20:21:31,786 | INFO | Thread iniciada para ('127.0.0.1', 64998) | ativas=1
+2026-05-16 20:21:31,786 | INFO | [Thread-132 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:31,786 | WARNING | [Thread-132 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:36,807 | INFO | [Thread-133 (handle_client)] conexão recebida de 127.0.0.1:65000
+2026-05-16 20:21:36,807 | INFO | Thread iniciada para ('127.0.0.1', 65000) | ativas=1
+2026-05-16 20:21:36,807 | INFO | [Thread-133 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:36,807 | WARNING | [Thread-133 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:41,723 | INFO | [Thread-134 (handle_client)] conexão recebida de 127.0.0.1:65002
+2026-05-16 20:21:41,724 | INFO | Thread iniciada para ('127.0.0.1', 65002) | ativas=1
+2026-05-16 20:21:41,724 | INFO | [Thread-134 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:41,724 | WARNING | [Thread-134 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:46,823 | INFO | [Thread-135 (handle_client)] conexão recebida de 127.0.0.1:55901
+2026-05-16 20:21:46,823 | INFO | Thread iniciada para ('127.0.0.1', 55901) | ativas=1
+2026-05-16 20:21:46,823 | INFO | [Thread-135 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:46,823 | WARNING | [Thread-135 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:51,786 | INFO | [Thread-136 (handle_client)] conexão recebida de 127.0.0.1:55903
+2026-05-16 20:21:51,786 | INFO | Thread iniciada para ('127.0.0.1', 55903) | ativas=1
+2026-05-16 20:21:51,786 | INFO | [Thread-136 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:51,786 | WARNING | [Thread-136 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:21:56,739 | INFO | [Thread-137 (handle_client)] conexão recebida de 127.0.0.1:55906
+2026-05-16 20:21:56,739 | INFO | Thread iniciada para ('127.0.0.1', 55906) | ativas=1
+2026-05-16 20:21:56,739 | INFO | [Thread-137 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:21:56,763 | WARNING | [Thread-137 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:01,725 | INFO | [Thread-138 (handle_client)] conexão recebida de 127.0.0.1:55908
+2026-05-16 20:22:01,725 | INFO | Thread iniciada para ('127.0.0.1', 55908) | ativas=1
+2026-05-16 20:22:01,725 | INFO | [Thread-138 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:01,725 | WARNING | [Thread-138 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:06,801 | INFO | [Thread-139 (handle_client)] conexão recebida de 127.0.0.1:55911
+2026-05-16 20:22:06,801 | INFO | Thread iniciada para ('127.0.0.1', 55911) | ativas=1
+2026-05-16 20:22:06,801 | INFO | [Thread-139 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:06,802 | WARNING | [Thread-139 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:11,725 | INFO | [Thread-140 (handle_client)] conexão recebida de 127.0.0.1:55913
+2026-05-16 20:22:11,725 | INFO | Thread iniciada para ('127.0.0.1', 55913) | ativas=1
+2026-05-16 20:22:11,725 | INFO | [Thread-140 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:11,725 | WARNING | [Thread-140 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:16,746 | INFO | [Thread-141 (handle_client)] conexão recebida de 127.0.0.1:55916
+2026-05-16 20:22:16,746 | INFO | Thread iniciada para ('127.0.0.1', 55916) | ativas=1
+2026-05-16 20:22:16,746 | INFO | [Thread-141 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:16,762 | WARNING | [Thread-141 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:21,788 | INFO | [Thread-142 (handle_client)] conexão recebida de 127.0.0.1:55918
+2026-05-16 20:22:21,788 | INFO | Thread iniciada para ('127.0.0.1', 55918) | ativas=1
+2026-05-16 20:22:21,788 | INFO | [Thread-142 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:21,788 | WARNING | [Thread-142 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:26,781 | INFO | [Thread-143 (handle_client)] conexão recebida de 127.0.0.1:55920
+2026-05-16 20:22:26,781 | INFO | Thread iniciada para ('127.0.0.1', 55920) | ativas=1
+2026-05-16 20:22:26,781 | INFO | [Thread-143 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:26,781 | WARNING | [Thread-143 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:31,727 | INFO | [Thread-144 (handle_client)] conexão recebida de 127.0.0.1:53829
+2026-05-16 20:22:31,727 | INFO | Thread iniciada para ('127.0.0.1', 53829) | ativas=1
+2026-05-16 20:22:31,728 | INFO | [Thread-144 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:31,728 | WARNING | [Thread-144 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:36,782 | INFO | [Thread-145 (handle_client)] conexão recebida de 127.0.0.1:53831
+2026-05-16 20:22:36,782 | INFO | Thread iniciada para ('127.0.0.1', 53831) | ativas=1
+2026-05-16 20:22:36,782 | INFO | [Thread-145 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:36,783 | WARNING | [Thread-145 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:41,800 | INFO | [Thread-146 (handle_client)] conexão recebida de 127.0.0.1:53833
+2026-05-16 20:22:41,800 | INFO | Thread iniciada para ('127.0.0.1', 53833) | ativas=1
+2026-05-16 20:22:41,800 | INFO | [Thread-146 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:41,800 | WARNING | [Thread-146 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:46,722 | INFO | [Thread-147 (handle_client)] conexão recebida de 127.0.0.1:50091
+2026-05-16 20:22:46,722 | INFO | Thread iniciada para ('127.0.0.1', 50091) | ativas=1
+2026-05-16 20:22:46,722 | INFO | [Thread-147 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:46,722 | WARNING | [Thread-147 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:51,767 | INFO | [Thread-148 (handle_client)] conexão recebida de 127.0.0.1:50093
+2026-05-16 20:22:51,767 | INFO | Thread iniciada para ('127.0.0.1', 50093) | ativas=1
+2026-05-16 20:22:51,768 | INFO | [Thread-148 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:51,768 | WARNING | [Thread-148 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:22:56,776 | INFO | [Thread-149 (handle_client)] conexão recebida de 127.0.0.1:50095
+2026-05-16 20:22:56,776 | INFO | Thread iniciada para ('127.0.0.1', 50095) | ativas=1
+2026-05-16 20:22:56,776 | INFO | [Thread-149 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:22:56,776 | WARNING | [Thread-149 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:01,802 | INFO | [Thread-150 (handle_client)] conexão recebida de 127.0.0.1:50097
+2026-05-16 20:23:01,802 | INFO | Thread iniciada para ('127.0.0.1', 50097) | ativas=1
+2026-05-16 20:23:01,802 | INFO | [Thread-150 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:01,802 | WARNING | [Thread-150 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:06,725 | INFO | [Thread-151 (handle_client)] conexão recebida de 127.0.0.1:50099
+2026-05-16 20:23:06,726 | INFO | Thread iniciada para ('127.0.0.1', 50099) | ativas=1
+2026-05-16 20:23:06,726 | INFO | [Thread-151 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:06,726 | WARNING | [Thread-151 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:11,789 | INFO | [Thread-152 (handle_client)] conexão recebida de 127.0.0.1:50101
+2026-05-16 20:23:11,789 | INFO | Thread iniciada para ('127.0.0.1', 50101) | ativas=1
+2026-05-16 20:23:11,789 | INFO | [Thread-152 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:11,789 | WARNING | [Thread-152 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:16,736 | INFO | [Thread-153 (handle_client)] conexão recebida de 127.0.0.1:50103
+2026-05-16 20:23:16,737 | INFO | Thread iniciada para ('127.0.0.1', 50103) | ativas=1
+2026-05-16 20:23:16,737 | INFO | [Thread-153 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:16,747 | WARNING | [Thread-153 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:21,741 | INFO | [Thread-154 (handle_client)] conexão recebida de 127.0.0.1:50105
+2026-05-16 20:23:21,741 | INFO | Thread iniciada para ('127.0.0.1', 50105) | ativas=1
+2026-05-16 20:23:21,742 | INFO | [Thread-154 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:21,742 | WARNING | [Thread-154 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:26,762 | INFO | [Thread-155 (handle_client)] conexão recebida de 127.0.0.1:50107
+2026-05-16 20:23:26,762 | INFO | Thread iniciada para ('127.0.0.1', 50107) | ativas=1
+2026-05-16 20:23:26,762 | INFO | [Thread-155 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:26,778 | WARNING | [Thread-155 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:31,812 | INFO | [Thread-156 (handle_client)] conexão recebida de 127.0.0.1:50109
+2026-05-16 20:23:31,812 | INFO | Thread iniciada para ('127.0.0.1', 50109) | ativas=1
+2026-05-16 20:23:31,812 | INFO | [Thread-156 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:31,829 | WARNING | [Thread-156 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:36,748 | INFO | [Thread-157 (handle_client)] conexão recebida de 127.0.0.1:54182
+2026-05-16 20:23:36,748 | INFO | Thread iniciada para ('127.0.0.1', 54182) | ativas=1
+2026-05-16 20:23:36,749 | INFO | [Thread-157 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:36,749 | WARNING | [Thread-157 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:41,736 | INFO | [Thread-158 (handle_client)] conexão recebida de 127.0.0.1:54184
+2026-05-16 20:23:41,737 | INFO | Thread iniciada para ('127.0.0.1', 54184) | ativas=1
+2026-05-16 20:23:41,737 | INFO | [Thread-158 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:41,737 | WARNING | [Thread-158 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:46,818 | INFO | [Thread-159 (handle_client)] conexão recebida de 127.0.0.1:52989
+2026-05-16 20:23:46,818 | INFO | Thread iniciada para ('127.0.0.1', 52989) | ativas=1
+2026-05-16 20:23:46,818 | INFO | [Thread-159 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:46,829 | WARNING | [Thread-159 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:51,836 | INFO | [Thread-160 (handle_client)] conexão recebida de 127.0.0.1:53006
+2026-05-16 20:23:51,837 | INFO | Thread iniciada para ('127.0.0.1', 53006) | ativas=1
+2026-05-16 20:23:51,837 | INFO | [Thread-160 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:51,857 | WARNING | [Thread-160 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:23:56,754 | INFO | [Thread-161 (handle_client)] conexão recebida de 127.0.0.1:53009
+2026-05-16 20:23:56,754 | INFO | Thread iniciada para ('127.0.0.1', 53009) | ativas=1
+2026-05-16 20:23:56,754 | INFO | [Thread-161 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:23:56,754 | WARNING | [Thread-161 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:01,735 | INFO | [Thread-162 (handle_client)] conexão recebida de 127.0.0.1:53011
+2026-05-16 20:24:01,735 | INFO | Thread iniciada para ('127.0.0.1', 53011) | ativas=1
+2026-05-16 20:24:01,735 | INFO | [Thread-162 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:01,735 | WARNING | [Thread-162 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:06,791 | INFO | [Thread-163 (handle_client)] conexão recebida de 127.0.0.1:53014
+2026-05-16 20:24:06,791 | INFO | Thread iniciada para ('127.0.0.1', 53014) | ativas=1
+2026-05-16 20:24:06,791 | INFO | [Thread-163 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:06,791 | WARNING | [Thread-163 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:11,772 | INFO | [Thread-164 (handle_client)] conexão recebida de 127.0.0.1:53016
+2026-05-16 20:24:11,772 | INFO | Thread iniciada para ('127.0.0.1', 53016) | ativas=1
+2026-05-16 20:24:11,772 | INFO | [Thread-164 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:11,772 | WARNING | [Thread-164 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:16,720 | INFO | [Thread-165 (handle_client)] conexão recebida de 127.0.0.1:53018
+2026-05-16 20:24:16,720 | INFO | Thread iniciada para ('127.0.0.1', 53018) | ativas=1
+2026-05-16 20:24:16,720 | INFO | [Thread-165 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:16,720 | WARNING | [Thread-165 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:21,767 | INFO | [Thread-166 (handle_client)] conexão recebida de 127.0.0.1:53020
+2026-05-16 20:24:21,767 | INFO | Thread iniciada para ('127.0.0.1', 53020) | ativas=1
+2026-05-16 20:24:21,767 | INFO | [Thread-166 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:21,767 | WARNING | [Thread-166 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:26,756 | INFO | [Thread-167 (handle_client)] conexão recebida de 127.0.0.1:53022
+2026-05-16 20:24:26,756 | INFO | Thread iniciada para ('127.0.0.1', 53022) | ativas=1
+2026-05-16 20:24:26,756 | INFO | [Thread-167 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:26,756 | WARNING | [Thread-167 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:31,783 | INFO | [Thread-168 (handle_client)] conexão recebida de 127.0.0.1:53024
+2026-05-16 20:24:31,783 | INFO | Thread iniciada para ('127.0.0.1', 53024) | ativas=1
+2026-05-16 20:24:31,783 | INFO | [Thread-168 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:31,783 | WARNING | [Thread-168 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:36,751 | INFO | [Thread-169 (handle_client)] conexão recebida de 127.0.0.1:50087
+2026-05-16 20:24:36,751 | INFO | Thread iniciada para ('127.0.0.1', 50087) | ativas=1
+2026-05-16 20:24:36,751 | INFO | [Thread-169 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:36,752 | WARNING | [Thread-169 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:41,770 | INFO | [Thread-170 (handle_client)] conexão recebida de 127.0.0.1:49191
+2026-05-16 20:24:41,770 | INFO | Thread iniciada para ('127.0.0.1', 49191) | ativas=1
+2026-05-16 20:24:41,770 | INFO | [Thread-170 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:41,770 | WARNING | [Thread-170 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:46,750 | INFO | [Thread-171 (handle_client)] conexão recebida de 127.0.0.1:55770
+2026-05-16 20:24:46,750 | INFO | Thread iniciada para ('127.0.0.1', 55770) | ativas=1
+2026-05-16 20:24:46,750 | INFO | [Thread-171 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:46,750 | WARNING | [Thread-171 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:51,773 | INFO | [Thread-172 (handle_client)] conexão recebida de 127.0.0.1:55772
+2026-05-16 20:24:51,773 | INFO | Thread iniciada para ('127.0.0.1', 55772) | ativas=1
+2026-05-16 20:24:51,773 | INFO | [Thread-172 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:51,773 | WARNING | [Thread-172 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:24:56,748 | INFO | [Thread-173 (handle_client)] conexão recebida de 127.0.0.1:55774
+2026-05-16 20:24:56,749 | INFO | Thread iniciada para ('127.0.0.1', 55774) | ativas=1
+2026-05-16 20:24:56,749 | INFO | [Thread-173 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:24:56,749 | WARNING | [Thread-173 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:01,783 | INFO | [Thread-174 (handle_client)] conexão recebida de 127.0.0.1:55777
+2026-05-16 20:25:01,783 | INFO | Thread iniciada para ('127.0.0.1', 55777) | ativas=1
+2026-05-16 20:25:01,783 | INFO | [Thread-174 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:01,783 | WARNING | [Thread-174 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:06,741 | INFO | [Thread-175 (handle_client)] conexão recebida de 127.0.0.1:55779
+2026-05-16 20:25:06,741 | INFO | Thread iniciada para ('127.0.0.1', 55779) | ativas=1
+2026-05-16 20:25:06,741 | INFO | [Thread-175 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:06,741 | WARNING | [Thread-175 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:11,770 | INFO | [Thread-176 (handle_client)] conexão recebida de 127.0.0.1:55781
+2026-05-16 20:25:11,771 | INFO | Thread iniciada para ('127.0.0.1', 55781) | ativas=1
+2026-05-16 20:25:11,771 | INFO | [Thread-176 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:11,771 | WARNING | [Thread-176 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:16,795 | INFO | [Thread-177 (handle_client)] conexão recebida de 127.0.0.1:63394
+2026-05-16 20:25:16,795 | INFO | Thread iniciada para ('127.0.0.1', 63394) | ativas=1
+2026-05-16 20:25:16,796 | INFO | [Thread-177 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:16,796 | WARNING | [Thread-177 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:21,762 | INFO | [Thread-178 (handle_client)] conexão recebida de 127.0.0.1:61754
+2026-05-16 20:25:21,762 | INFO | Thread iniciada para ('127.0.0.1', 61754) | ativas=1
+2026-05-16 20:25:21,762 | INFO | [Thread-178 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:21,781 | WARNING | [Thread-178 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:26,736 | INFO | [Thread-179 (handle_client)] conexão recebida de 127.0.0.1:61756
+2026-05-16 20:25:26,736 | INFO | Thread iniciada para ('127.0.0.1', 61756) | ativas=1
+2026-05-16 20:25:26,736 | INFO | [Thread-179 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:26,736 | WARNING | [Thread-179 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:31,796 | INFO | [Thread-180 (handle_client)] conexão recebida de 127.0.0.1:61761
+2026-05-16 20:25:31,796 | INFO | Thread iniciada para ('127.0.0.1', 61761) | ativas=1
+2026-05-16 20:25:31,797 | INFO | [Thread-180 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:31,797 | WARNING | [Thread-180 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:36,759 | INFO | [Thread-181 (handle_client)] conexão recebida de 127.0.0.1:58913
+2026-05-16 20:25:36,759 | INFO | Thread iniciada para ('127.0.0.1', 58913) | ativas=1
+2026-05-16 20:25:36,759 | INFO | [Thread-181 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:36,759 | WARNING | [Thread-181 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:41,800 | INFO | [Thread-182 (handle_client)] conexão recebida de 127.0.0.1:58916
+2026-05-16 20:25:41,800 | INFO | Thread iniciada para ('127.0.0.1', 58916) | ativas=1
+2026-05-16 20:25:41,800 | INFO | [Thread-182 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:41,800 | WARNING | [Thread-182 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:46,752 | INFO | [Thread-183 (handle_client)] conexão recebida de 127.0.0.1:63629
+2026-05-16 20:25:46,752 | INFO | Thread iniciada para ('127.0.0.1', 63629) | ativas=1
+2026-05-16 20:25:46,752 | INFO | [Thread-183 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:46,752 | WARNING | [Thread-183 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:51,761 | INFO | [Thread-184 (handle_client)] conexão recebida de 127.0.0.1:63633
+2026-05-16 20:25:51,761 | INFO | Thread iniciada para ('127.0.0.1', 63633) | ativas=1
+2026-05-16 20:25:51,761 | INFO | [Thread-184 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:51,761 | WARNING | [Thread-184 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:25:56,788 | INFO | [Thread-185 (handle_client)] conexão recebida de 127.0.0.1:55043
+2026-05-16 20:25:56,789 | INFO | Thread iniciada para ('127.0.0.1', 55043) | ativas=1
+2026-05-16 20:25:56,789 | INFO | [Thread-185 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:25:56,802 | WARNING | [Thread-185 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:01,777 | INFO | [Thread-186 (handle_client)] conexão recebida de 127.0.0.1:55045
+2026-05-16 20:26:01,777 | INFO | Thread iniciada para ('127.0.0.1', 55045) | ativas=1
+2026-05-16 20:26:01,777 | INFO | [Thread-186 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:01,797 | WARNING | [Thread-186 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:06,729 | INFO | [Thread-187 (handle_client)] conexão recebida de 127.0.0.1:55049
+2026-05-16 20:26:06,729 | INFO | Thread iniciada para ('127.0.0.1', 55049) | ativas=1
+2026-05-16 20:26:06,729 | INFO | [Thread-187 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:06,729 | WARNING | [Thread-187 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:11,812 | INFO | [Thread-188 (handle_client)] conexão recebida de 127.0.0.1:55055
+2026-05-16 20:26:11,812 | INFO | Thread iniciada para ('127.0.0.1', 55055) | ativas=1
+2026-05-16 20:26:11,812 | INFO | [Thread-188 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:11,812 | WARNING | [Thread-188 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:16,771 | INFO | [Thread-189 (handle_client)] conexão recebida de 127.0.0.1:58731
+2026-05-16 20:26:16,772 | INFO | Thread iniciada para ('127.0.0.1', 58731) | ativas=1
+2026-05-16 20:26:16,772 | INFO | [Thread-189 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:16,772 | WARNING | [Thread-189 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:21,793 | INFO | [Thread-190 (handle_client)] conexão recebida de 127.0.0.1:58735
+2026-05-16 20:26:21,793 | INFO | Thread iniciada para ('127.0.0.1', 58735) | ativas=1
+2026-05-16 20:26:21,793 | INFO | [Thread-190 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:21,794 | WARNING | [Thread-190 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:26,783 | INFO | [Thread-191 (handle_client)] conexão recebida de 127.0.0.1:58737
+2026-05-16 20:26:26,783 | INFO | Thread iniciada para ('127.0.0.1', 58737) | ativas=1
+2026-05-16 20:26:26,783 | INFO | [Thread-191 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:26,783 | WARNING | [Thread-191 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:31,761 | INFO | [Thread-192 (handle_client)] conexão recebida de 127.0.0.1:58740
+2026-05-16 20:26:31,761 | INFO | Thread iniciada para ('127.0.0.1', 58740) | ativas=1
+2026-05-16 20:26:31,761 | INFO | [Thread-192 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:31,761 | WARNING | [Thread-192 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:36,750 | INFO | [Thread-193 (handle_client)] conexão recebida de 127.0.0.1:64079
+2026-05-16 20:26:36,750 | INFO | Thread iniciada para ('127.0.0.1', 64079) | ativas=1
+2026-05-16 20:26:36,750 | INFO | [Thread-193 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:36,750 | WARNING | [Thread-193 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:41,793 | INFO | [Thread-194 (handle_client)] conexão recebida de 127.0.0.1:64081
+2026-05-16 20:26:41,793 | INFO | Thread iniciada para ('127.0.0.1', 64081) | ativas=1
+2026-05-16 20:26:41,793 | INFO | [Thread-194 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:41,793 | WARNING | [Thread-194 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:46,755 | INFO | [Thread-195 (handle_client)] conexão recebida de 127.0.0.1:62441
+2026-05-16 20:26:46,755 | INFO | Thread iniciada para ('127.0.0.1', 62441) | ativas=1
+2026-05-16 20:26:46,755 | INFO | [Thread-195 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:46,756 | WARNING | [Thread-195 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:51,752 | INFO | [Thread-196 (handle_client)] conexão recebida de 127.0.0.1:62443
+2026-05-16 20:26:51,753 | INFO | Thread iniciada para ('127.0.0.1', 62443) | ativas=1
+2026-05-16 20:26:51,753 | INFO | [Thread-196 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:51,753 | WARNING | [Thread-196 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:26:56,796 | INFO | [Thread-197 (handle_client)] conexão recebida de 127.0.0.1:62446
+2026-05-16 20:26:56,796 | INFO | Thread iniciada para ('127.0.0.1', 62446) | ativas=1
+2026-05-16 20:26:56,796 | INFO | [Thread-197 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:26:56,796 | WARNING | [Thread-197 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:02,714 | INFO | [Thread-198 (handle_client)] conexão recebida de 127.0.0.1:49615
+2026-05-16 20:27:02,715 | INFO | Thread iniciada para ('127.0.0.1', 49615) | ativas=1
+2026-05-16 20:27:02,715 | INFO | [Thread-198 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:02,715 | WARNING | [Thread-198 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:07,416 | INFO | [Thread-199 (handle_client)] conexão recebida de 127.0.0.1:59629
+2026-05-16 20:27:07,416 | INFO | Thread iniciada para ('127.0.0.1', 59629) | ativas=1
+2026-05-16 20:27:07,416 | INFO | [Thread-199 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:07,416 | WARNING | [Thread-199 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:12,413 | INFO | [Thread-200 (handle_client)] conexão recebida de 127.0.0.1:59632
+2026-05-16 20:27:12,413 | INFO | Thread iniciada para ('127.0.0.1', 59632) | ativas=1
+2026-05-16 20:27:12,413 | INFO | [Thread-200 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:12,414 | WARNING | [Thread-200 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:17,400 | INFO | [Thread-201 (handle_client)] conexão recebida de 127.0.0.1:59634
+2026-05-16 20:27:17,400 | INFO | Thread iniciada para ('127.0.0.1', 59634) | ativas=1
+2026-05-16 20:27:17,400 | INFO | [Thread-201 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:17,400 | WARNING | [Thread-201 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:22,380 | INFO | [Thread-202 (handle_client)] conexão recebida de 127.0.0.1:59636
+2026-05-16 20:27:22,380 | INFO | Thread iniciada para ('127.0.0.1', 59636) | ativas=1
+2026-05-16 20:27:22,380 | INFO | [Thread-202 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:22,380 | WARNING | [Thread-202 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:27,433 | INFO | [Thread-203 (handle_client)] conexão recebida de 127.0.0.1:59639
+2026-05-16 20:27:27,434 | INFO | Thread iniciada para ('127.0.0.1', 59639) | ativas=1
+2026-05-16 20:27:27,434 | INFO | [Thread-203 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:27,434 | WARNING | [Thread-203 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:32,426 | INFO | [Thread-204 (handle_client)] conexão recebida de 127.0.0.1:59641
+2026-05-16 20:27:32,426 | INFO | Thread iniciada para ('127.0.0.1', 59641) | ativas=1
+2026-05-16 20:27:32,426 | INFO | [Thread-204 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:32,426 | WARNING | [Thread-204 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:37,454 | INFO | [Thread-205 (handle_client)] conexão recebida de 127.0.0.1:59644
+2026-05-16 20:27:37,454 | INFO | Thread iniciada para ('127.0.0.1', 59644) | ativas=1
+2026-05-16 20:27:37,454 | INFO | [Thread-205 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:37,465 | WARNING | [Thread-205 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:42,398 | INFO | [Thread-206 (handle_client)] conexão recebida de 127.0.0.1:58648
+2026-05-16 20:27:42,398 | INFO | Thread iniciada para ('127.0.0.1', 58648) | ativas=1
+2026-05-16 20:27:42,398 | INFO | [Thread-206 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:42,398 | WARNING | [Thread-206 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:47,449 | INFO | [Thread-207 (handle_client)] conexão recebida de 127.0.0.1:55589
+2026-05-16 20:27:47,449 | INFO | Thread iniciada para ('127.0.0.1', 55589) | ativas=1
+2026-05-16 20:27:47,450 | INFO | [Thread-207 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:47,450 | WARNING | [Thread-207 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:52,386 | INFO | [Thread-208 (handle_client)] conexão recebida de 127.0.0.1:55591
+2026-05-16 20:27:52,386 | INFO | Thread iniciada para ('127.0.0.1', 55591) | ativas=1
+2026-05-16 20:27:52,386 | INFO | [Thread-208 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:52,386 | WARNING | [Thread-208 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:27:57,393 | INFO | [Thread-209 (handle_client)] conexão recebida de 127.0.0.1:55593
+2026-05-16 20:27:57,393 | INFO | Thread iniciada para ('127.0.0.1', 55593) | ativas=1
+2026-05-16 20:27:57,393 | INFO | [Thread-209 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:27:57,393 | WARNING | [Thread-209 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:13,809 | INFO | [Thread-210 (handle_client)] conexão recebida de 127.0.0.1:62046
+2026-05-16 20:28:13,809 | INFO | Thread iniciada para ('127.0.0.1', 62046) | ativas=1
+2026-05-16 20:28:13,809 | INFO | [Thread-210 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:13,809 | WARNING | [Thread-210 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:16,741 | INFO | [Thread-211 (handle_client)] conexão recebida de 127.0.0.1:55173
+2026-05-16 20:28:16,741 | INFO | Thread iniciada para ('127.0.0.1', 55173) | ativas=1
+2026-05-16 20:28:16,741 | INFO | [Thread-211 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:16,741 | WARNING | [Thread-211 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:22,461 | INFO | [Thread-212 (handle_client)] conexão recebida de 127.0.0.1:61939
+2026-05-16 20:28:22,461 | INFO | Thread iniciada para ('127.0.0.1', 61939) | ativas=1
+2026-05-16 20:28:22,462 | INFO | [Thread-212 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:22,462 | WARNING | [Thread-212 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:27,453 | INFO | [Thread-213 (handle_client)] conexão recebida de 127.0.0.1:57232
+2026-05-16 20:28:27,453 | INFO | Thread iniciada para ('127.0.0.1', 57232) | ativas=1
+2026-05-16 20:28:27,453 | INFO | [Thread-213 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:27,453 | WARNING | [Thread-213 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:32,383 | INFO | [Thread-214 (handle_client)] conexão recebida de 127.0.0.1:50335
+2026-05-16 20:28:32,383 | INFO | Thread iniciada para ('127.0.0.1', 50335) | ativas=1
+2026-05-16 20:28:32,384 | INFO | [Thread-214 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:32,384 | WARNING | [Thread-214 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:37,385 | INFO | [Thread-215 (handle_client)] conexão recebida de 127.0.0.1:50338
+2026-05-16 20:28:37,385 | INFO | Thread iniciada para ('127.0.0.1', 50338) | ativas=1
+2026-05-16 20:28:37,385 | INFO | [Thread-215 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:37,385 | WARNING | [Thread-215 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:42,468 | INFO | [Thread-216 (handle_client)] conexão recebida de 127.0.0.1:65104
+2026-05-16 20:28:42,469 | INFO | Thread iniciada para ('127.0.0.1', 65104) | ativas=1
+2026-05-16 20:28:42,469 | INFO | [Thread-216 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:42,479 | WARNING | [Thread-216 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:47,407 | INFO | [Thread-217 (handle_client)] conexão recebida de 127.0.0.1:52029
+2026-05-16 20:28:47,407 | INFO | Thread iniciada para ('127.0.0.1', 52029) | ativas=1
+2026-05-16 20:28:47,407 | INFO | [Thread-217 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:47,407 | WARNING | [Thread-217 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:52,391 | INFO | [Thread-218 (handle_client)] conexão recebida de 127.0.0.1:52032
+2026-05-16 20:28:52,391 | INFO | Thread iniciada para ('127.0.0.1', 52032) | ativas=1
+2026-05-16 20:28:52,391 | INFO | [Thread-218 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:52,391 | WARNING | [Thread-218 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:28:57,410 | INFO | [Thread-219 (handle_client)] conexão recebida de 127.0.0.1:52034
+2026-05-16 20:28:57,410 | INFO | Thread iniciada para ('127.0.0.1', 52034) | ativas=1
+2026-05-16 20:28:57,410 | INFO | [Thread-219 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:28:57,410 | WARNING | [Thread-219 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:29:02,459 | INFO | [Thread-220 (handle_client)] conexão recebida de 127.0.0.1:52036
+2026-05-16 20:29:02,459 | INFO | Thread iniciada para ('127.0.0.1', 52036) | ativas=1
+2026-05-16 20:29:02,459 | INFO | [Thread-220 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:29:02,459 | WARNING | [Thread-220 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:29:07,412 | INFO | [Thread-221 (handle_client)] conexão recebida de 127.0.0.1:52038
+2026-05-16 20:29:07,413 | INFO | Thread iniciada para ('127.0.0.1', 52038) | ativas=1
+2026-05-16 20:29:07,413 | INFO | [Thread-221 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:29:07,413 | WARNING | [Thread-221 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:29:12,382 | INFO | [Thread-222 (handle_client)] conexão recebida de 127.0.0.1:52040
+2026-05-16 20:29:12,382 | INFO | Thread iniciada para ('127.0.0.1', 52040) | ativas=1
+2026-05-16 20:29:12,382 | INFO | [Thread-222 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:29:12,382 | WARNING | [Thread-222 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:29:17,404 | INFO | [Thread-223 (handle_client)] conexão recebida de 127.0.0.1:52042
+2026-05-16 20:29:17,404 | INFO | Thread iniciada para ('127.0.0.1', 52042) | ativas=1
+2026-05-16 20:29:17,404 | INFO | [Thread-223 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:29:17,404 | WARNING | [Thread-223 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:29:46,720 | INFO | [Thread-224 (handle_client)] conexão recebida de 127.0.0.1:51475
+2026-05-16 20:29:46,720 | INFO | Thread iniciada para ('127.0.0.1', 51475) | ativas=1
+2026-05-16 20:29:46,720 | INFO | [Thread-224 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:29:46,720 | WARNING | [Thread-224 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:30:46,413 | INFO | [Thread-225 (handle_client)] conexão recebida de 127.0.0.1:55738
+2026-05-16 20:30:46,414 | INFO | Thread iniciada para ('127.0.0.1', 55738) | ativas=1
+2026-05-16 20:30:46,414 | INFO | [Thread-225 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:30:46,414 | WARNING | [Thread-225 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:31:46,697 | INFO | [Thread-226 (handle_client)] conexão recebida de 127.0.0.1:53434
+2026-05-16 20:31:46,697 | INFO | Thread iniciada para ('127.0.0.1', 53434) | ativas=1
+2026-05-16 20:31:46,697 | INFO | [Thread-226 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:31:46,697 | WARNING | [Thread-226 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:32:46,425 | INFO | [Thread-227 (handle_client)] conexão recebida de 127.0.0.1:53995
+2026-05-16 20:32:46,425 | INFO | Thread iniciada para ('127.0.0.1', 53995) | ativas=1
+2026-05-16 20:32:46,425 | INFO | [Thread-227 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:32:46,425 | WARNING | [Thread-227 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:33:46,712 | INFO | [Thread-228 (handle_client)] conexão recebida de 127.0.0.1:58090
+2026-05-16 20:33:46,712 | INFO | Thread iniciada para ('127.0.0.1', 58090) | ativas=1
+2026-05-16 20:33:46,712 | INFO | [Thread-228 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:33:46,712 | WARNING | [Thread-228 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:34:46,432 | INFO | [Thread-229 (handle_client)] conexão recebida de 127.0.0.1:64184
+2026-05-16 20:34:46,432 | INFO | Thread iniciada para ('127.0.0.1', 64184) | ativas=1
+2026-05-16 20:34:46,432 | INFO | [Thread-229 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:34:46,432 | WARNING | [Thread-229 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:35:46,701 | INFO | [Thread-230 (handle_client)] conexão recebida de 127.0.0.1:49512
+2026-05-16 20:35:46,701 | INFO | Thread iniciada para ('127.0.0.1', 49512) | ativas=1
+2026-05-16 20:35:46,701 | INFO | [Thread-230 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:35:46,701 | WARNING | [Thread-230 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:36:42,494 | INFO | [Thread-231 (handle_client)] conexão recebida de 127.0.0.1:64882
+2026-05-16 20:36:42,494 | INFO | Thread iniciada para ('127.0.0.1', 64882) | ativas=1
+2026-05-16 20:36:42,494 | INFO | [Thread-231 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:36:42,494 | WARNING | [Thread-231 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:36:46,729 | INFO | [Thread-232 (handle_client)] conexão recebida de 127.0.0.1:53665
+2026-05-16 20:36:46,729 | INFO | Thread iniciada para ('127.0.0.1', 53665) | ativas=1
+2026-05-16 20:36:46,730 | INFO | [Thread-232 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:36:46,746 | WARNING | [Thread-232 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:36:52,729 | INFO | [Thread-233 (handle_client)] conexão recebida de 127.0.0.1:50381
+2026-05-16 20:36:52,729 | INFO | Thread iniciada para ('127.0.0.1', 50381) | ativas=1
+2026-05-16 20:36:52,729 | INFO | [Thread-233 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:36:52,729 | WARNING | [Thread-233 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:36:57,399 | INFO | [Thread-234 (handle_client)] conexão recebida de 127.0.0.1:51580
+2026-05-16 20:36:57,399 | INFO | Thread iniciada para ('127.0.0.1', 51580) | ativas=1
+2026-05-16 20:36:57,399 | INFO | [Thread-234 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:36:57,399 | WARNING | [Thread-234 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:02,554 | INFO | [Thread-235 (handle_client)] conexão recebida de 127.0.0.1:50885
+2026-05-16 20:37:02,555 | INFO | Thread iniciada para ('127.0.0.1', 50885) | ativas=1
+2026-05-16 20:37:02,555 | INFO | [Thread-235 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:02,555 | WARNING | [Thread-235 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:07,451 | INFO | [Thread-236 (handle_client)] conexão recebida de 127.0.0.1:61978
+2026-05-16 20:37:07,451 | INFO | Thread iniciada para ('127.0.0.1', 61978) | ativas=1
+2026-05-16 20:37:07,451 | INFO | [Thread-236 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:07,451 | WARNING | [Thread-236 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:12,489 | INFO | [Thread-237 (handle_client)] conexão recebida de 127.0.0.1:65052
+2026-05-16 20:37:12,489 | INFO | Thread iniciada para ('127.0.0.1', 65052) | ativas=1
+2026-05-16 20:37:12,489 | INFO | [Thread-237 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:12,489 | WARNING | [Thread-237 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:17,414 | INFO | [Thread-238 (handle_client)] conexão recebida de 127.0.0.1:65054
+2026-05-16 20:37:17,414 | INFO | Thread iniciada para ('127.0.0.1', 65054) | ativas=1
+2026-05-16 20:37:17,414 | INFO | [Thread-238 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:17,415 | WARNING | [Thread-238 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:22,475 | INFO | [Thread-239 (handle_client)] conexão recebida de 127.0.0.1:51648
+2026-05-16 20:37:22,475 | INFO | Thread iniciada para ('127.0.0.1', 51648) | ativas=1
+2026-05-16 20:37:22,475 | INFO | [Thread-239 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:22,476 | WARNING | [Thread-239 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:27,384 | INFO | [Thread-240 (handle_client)] conexão recebida de 127.0.0.1:49916
+2026-05-16 20:37:27,384 | INFO | Thread iniciada para ('127.0.0.1', 49916) | ativas=1
+2026-05-16 20:37:27,384 | INFO | [Thread-240 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:27,384 | WARNING | [Thread-240 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:32,462 | INFO | [Thread-241 (handle_client)] conexão recebida de 127.0.0.1:61243
+2026-05-16 20:37:32,463 | INFO | Thread iniciada para ('127.0.0.1', 61243) | ativas=1
+2026-05-16 20:37:32,463 | INFO | [Thread-241 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:32,463 | WARNING | [Thread-241 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:37,384 | INFO | [Thread-242 (handle_client)] conexão recebida de 127.0.0.1:49223
+2026-05-16 20:37:37,384 | INFO | Thread iniciada para ('127.0.0.1', 49223) | ativas=1
+2026-05-16 20:37:37,384 | INFO | [Thread-242 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:37,384 | WARNING | [Thread-242 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:42,438 | INFO | [Thread-243 (handle_client)] conexão recebida de 127.0.0.1:49225
+2026-05-16 20:37:42,438 | INFO | Thread iniciada para ('127.0.0.1', 49225) | ativas=1
+2026-05-16 20:37:42,439 | INFO | [Thread-243 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:42,439 | WARNING | [Thread-243 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:46,718 | INFO | [Thread-244 (handle_client)] conexão recebida de 127.0.0.1:49227
+2026-05-16 20:37:46,718 | INFO | Thread iniciada para ('127.0.0.1', 49227) | ativas=1
+2026-05-16 20:37:46,718 | INFO | [Thread-244 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:46,718 | WARNING | [Thread-244 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:51,760 | INFO | [Thread-245 (handle_client)] conexão recebida de 127.0.0.1:65330
+2026-05-16 20:37:51,760 | INFO | Thread iniciada para ('127.0.0.1', 65330) | ativas=1
+2026-05-16 20:37:51,760 | INFO | [Thread-245 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:51,760 | WARNING | [Thread-245 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:37:57,727 | INFO | [Thread-246 (handle_client)] conexão recebida de 127.0.0.1:54175
+2026-05-16 20:37:57,727 | INFO | Thread iniciada para ('127.0.0.1', 54175) | ativas=1
+2026-05-16 20:37:57,728 | INFO | [Thread-246 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:37:57,740 | WARNING | [Thread-246 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:02,437 | INFO | [Thread-247 (handle_client)] conexão recebida de 127.0.0.1:52556
+2026-05-16 20:38:02,437 | INFO | Thread iniciada para ('127.0.0.1', 52556) | ativas=1
+2026-05-16 20:38:02,437 | INFO | [Thread-247 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:02,437 | WARNING | [Thread-247 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:07,416 | INFO | [Thread-248 (handle_client)] conexão recebida de 127.0.0.1:49867
+2026-05-16 20:38:07,416 | INFO | Thread iniciada para ('127.0.0.1', 49867) | ativas=1
+2026-05-16 20:38:07,416 | INFO | [Thread-248 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:07,416 | WARNING | [Thread-248 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:11,791 | INFO | [Thread-249 (handle_client)] conexão recebida de 127.0.0.1:49869
+2026-05-16 20:38:11,791 | INFO | Thread iniciada para ('127.0.0.1', 49869) | ativas=1
+2026-05-16 20:38:11,791 | INFO | [Thread-249 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:11,791 | WARNING | [Thread-249 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:16,741 | INFO | [Thread-250 (handle_client)] conexão recebida de 127.0.0.1:49871
+2026-05-16 20:38:16,742 | INFO | Thread iniciada para ('127.0.0.1', 49871) | ativas=1
+2026-05-16 20:38:16,742 | INFO | [Thread-250 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:16,742 | WARNING | [Thread-250 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:21,723 | INFO | [Thread-251 (handle_client)] conexão recebida de 127.0.0.1:49873
+2026-05-16 20:38:21,724 | INFO | Thread iniciada para ('127.0.0.1', 49873) | ativas=1
+2026-05-16 20:38:21,724 | INFO | [Thread-251 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:21,724 | WARNING | [Thread-251 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:27,392 | INFO | [Thread-252 (handle_client)] conexão recebida de 127.0.0.1:49875
+2026-05-16 20:38:27,392 | INFO | Thread iniciada para ('127.0.0.1', 49875) | ativas=1
+2026-05-16 20:38:27,392 | INFO | [Thread-252 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:27,392 | WARNING | [Thread-252 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:32,498 | INFO | [Thread-253 (handle_client)] conexão recebida de 127.0.0.1:49879
+2026-05-16 20:38:32,498 | INFO | Thread iniciada para ('127.0.0.1', 49879) | ativas=1
+2026-05-16 20:38:32,498 | INFO | [Thread-253 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:32,498 | WARNING | [Thread-253 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:37,396 | INFO | [Thread-254 (handle_client)] conexão recebida de 127.0.0.1:65163
+2026-05-16 20:38:37,396 | INFO | Thread iniciada para ('127.0.0.1', 65163) | ativas=1
+2026-05-16 20:38:37,396 | INFO | [Thread-254 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:37,396 | WARNING | [Thread-254 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:42,431 | INFO | [Thread-255 (handle_client)] conexão recebida de 127.0.0.1:65165
+2026-05-16 20:38:42,431 | INFO | Thread iniciada para ('127.0.0.1', 65165) | ativas=1
+2026-05-16 20:38:42,431 | INFO | [Thread-255 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:42,444 | WARNING | [Thread-255 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:47,422 | INFO | [Thread-256 (handle_client)] conexão recebida de 127.0.0.1:65167
+2026-05-16 20:38:47,422 | INFO | Thread iniciada para ('127.0.0.1', 65167) | ativas=1
+2026-05-16 20:38:47,422 | INFO | [Thread-256 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:47,437 | WARNING | [Thread-256 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:52,400 | INFO | [Thread-257 (handle_client)] conexão recebida de 127.0.0.1:65169
+2026-05-16 20:38:52,400 | INFO | Thread iniciada para ('127.0.0.1', 65169) | ativas=1
+2026-05-16 20:38:52,400 | INFO | [Thread-257 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:52,400 | WARNING | [Thread-257 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:38:57,415 | INFO | [Thread-258 (handle_client)] conexão recebida de 127.0.0.1:65095
+2026-05-16 20:38:57,415 | INFO | Thread iniciada para ('127.0.0.1', 65095) | ativas=1
+2026-05-16 20:38:57,416 | INFO | [Thread-258 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:38:57,416 | WARNING | [Thread-258 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:39:02,449 | INFO | [Thread-259 (handle_client)] conexão recebida de 127.0.0.1:65097
+2026-05-16 20:39:02,450 | INFO | Thread iniciada para ('127.0.0.1', 65097) | ativas=1
+2026-05-16 20:39:02,450 | INFO | [Thread-259 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:39:02,459 | WARNING | [Thread-259 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:39:07,412 | INFO | [Thread-260 (handle_client)] conexão recebida de 127.0.0.1:65099
+2026-05-16 20:39:07,412 | INFO | Thread iniciada para ('127.0.0.1', 65099) | ativas=1
+2026-05-16 20:39:07,412 | INFO | [Thread-260 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:39:07,412 | WARNING | [Thread-260 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:39:12,445 | INFO | [Thread-261 (handle_client)] conexão recebida de 127.0.0.1:60583
+2026-05-16 20:39:12,445 | INFO | Thread iniciada para ('127.0.0.1', 60583) | ativas=1
+2026-05-16 20:39:12,445 | INFO | [Thread-261 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:39:12,445 | WARNING | [Thread-261 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:39:17,414 | INFO | [Thread-262 (handle_client)] conexão recebida de 127.0.0.1:60585
+2026-05-16 20:39:17,414 | INFO | Thread iniciada para ('127.0.0.1', 60585) | ativas=1
+2026-05-16 20:39:17,414 | INFO | [Thread-262 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:39:17,440 | WARNING | [Thread-262 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:39:22,472 | INFO | [Thread-263 (handle_client)] conexão recebida de 127.0.0.1:60587
+2026-05-16 20:39:22,472 | INFO | Thread iniciada para ('127.0.0.1', 60587) | ativas=1
+2026-05-16 20:39:22,472 | INFO | [Thread-263 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:39:22,472 | WARNING | [Thread-263 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:39:46,734 | INFO | [Thread-264 (handle_client)] conexão recebida de 127.0.0.1:56070
+2026-05-16 20:39:46,734 | INFO | Thread iniciada para ('127.0.0.1', 56070) | ativas=1
+2026-05-16 20:39:46,734 | INFO | [Thread-264 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:39:46,734 | WARNING | [Thread-264 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:40:46,475 | INFO | [Thread-265 (handle_client)] conexão recebida de 127.0.0.1:52606
+2026-05-16 20:40:46,475 | INFO | Thread iniciada para ('127.0.0.1', 52606) | ativas=1
+2026-05-16 20:40:46,475 | INFO | [Thread-265 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:40:46,489 | WARNING | [Thread-265 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:02,984 | INFO | [Thread-266 (handle_client)] conexão recebida de 127.0.0.1:61644
+2026-05-16 20:41:02,984 | INFO | Thread iniciada para ('127.0.0.1', 61644) | ativas=1
+2026-05-16 20:41:02,984 | INFO | [Thread-266 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:02,984 | WARNING | [Thread-266 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:06,753 | INFO | [Thread-267 (handle_client)] conexão recebida de 127.0.0.1:61496
+2026-05-16 20:41:06,753 | INFO | [Thread-267 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:06,753 | INFO | Thread iniciada para ('127.0.0.1', 61496) | ativas=1
+2026-05-16 20:41:06,753 | WARNING | [Thread-267 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:11,736 | INFO | [Thread-268 (handle_client)] conexão recebida de 127.0.0.1:61502
+2026-05-16 20:41:11,736 | INFO | Thread iniciada para ('127.0.0.1', 61502) | ativas=1
+2026-05-16 20:41:11,736 | INFO | [Thread-268 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:11,736 | WARNING | [Thread-268 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:16,776 | INFO | [Thread-269 (handle_client)] conexão recebida de 127.0.0.1:59532
+2026-05-16 20:41:16,777 | INFO | Thread iniciada para ('127.0.0.1', 59532) | ativas=1
+2026-05-16 20:41:16,777 | INFO | [Thread-269 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:16,777 | WARNING | [Thread-269 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:21,775 | INFO | [Thread-270 (handle_client)] conexão recebida de 127.0.0.1:50302
+2026-05-16 20:41:21,775 | INFO | Thread iniciada para ('127.0.0.1', 50302) | ativas=1
+2026-05-16 20:41:21,775 | INFO | [Thread-270 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:21,775 | WARNING | [Thread-270 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:26,723 | INFO | [Thread-271 (handle_client)] conexão recebida de 127.0.0.1:50304
+2026-05-16 20:41:26,723 | INFO | Thread iniciada para ('127.0.0.1', 50304) | ativas=1
+2026-05-16 20:41:26,723 | INFO | [Thread-271 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:26,723 | WARNING | [Thread-271 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:31,747 | INFO | [Thread-272 (handle_client)] conexão recebida de 127.0.0.1:49854
+2026-05-16 20:41:31,747 | INFO | Thread iniciada para ('127.0.0.1', 49854) | ativas=1
+2026-05-16 20:41:31,747 | INFO | [Thread-272 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:31,747 | WARNING | [Thread-272 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:36,802 | INFO | [Thread-273 (handle_client)] conexão recebida de 127.0.0.1:49856
+2026-05-16 20:41:36,802 | INFO | Thread iniciada para ('127.0.0.1', 49856) | ativas=1
+2026-05-16 20:41:36,802 | INFO | [Thread-273 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:36,825 | WARNING | [Thread-273 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:41,791 | INFO | [Thread-274 (handle_client)] conexão recebida de 127.0.0.1:49858
+2026-05-16 20:41:41,791 | INFO | Thread iniciada para ('127.0.0.1', 49858) | ativas=1
+2026-05-16 20:41:41,791 | INFO | [Thread-274 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:41,792 | WARNING | [Thread-274 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:46,761 | INFO | [Thread-275 (handle_client)] conexão recebida de 127.0.0.1:49860
+2026-05-16 20:41:46,761 | INFO | Thread iniciada para ('127.0.0.1', 49860) | ativas=1
+2026-05-16 20:41:46,761 | INFO | [Thread-275 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:46,761 | WARNING | [Thread-275 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:51,795 | INFO | [Thread-276 (handle_client)] conexão recebida de 127.0.0.1:49862
+2026-05-16 20:41:51,795 | INFO | Thread iniciada para ('127.0.0.1', 49862) | ativas=1
+2026-05-16 20:41:51,795 | INFO | [Thread-276 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:51,796 | WARNING | [Thread-276 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:41:56,717 | INFO | [Thread-277 (handle_client)] conexão recebida de 127.0.0.1:49864
+2026-05-16 20:41:56,718 | INFO | Thread iniciada para ('127.0.0.1', 49864) | ativas=1
+2026-05-16 20:41:56,718 | INFO | [Thread-277 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:41:56,739 | WARNING | [Thread-277 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:01,733 | INFO | [Thread-278 (handle_client)] conexão recebida de 127.0.0.1:59041
+2026-05-16 20:42:01,733 | INFO | Thread iniciada para ('127.0.0.1', 59041) | ativas=1
+2026-05-16 20:42:01,733 | INFO | [Thread-278 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:01,733 | WARNING | [Thread-278 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:06,798 | INFO | [Thread-279 (handle_client)] conexão recebida de 127.0.0.1:59043
+2026-05-16 20:42:06,798 | INFO | Thread iniciada para ('127.0.0.1', 59043) | ativas=1
+2026-05-16 20:42:06,798 | INFO | [Thread-279 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:06,798 | WARNING | [Thread-279 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:11,761 | INFO | [Thread-280 (handle_client)] conexão recebida de 127.0.0.1:65303
+2026-05-16 20:42:11,761 | INFO | Thread iniciada para ('127.0.0.1', 65303) | ativas=1
+2026-05-16 20:42:11,762 | INFO | [Thread-280 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:11,762 | WARNING | [Thread-280 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:17,766 | INFO | [Thread-281 (handle_client)] conexão recebida de 127.0.0.1:51100
+2026-05-16 20:42:17,766 | INFO | Thread iniciada para ('127.0.0.1', 51100) | ativas=1
+2026-05-16 20:42:17,766 | INFO | [Thread-281 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:17,766 | WARNING | [Thread-281 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:21,736 | INFO | [Thread-282 (handle_client)] conexão recebida de 127.0.0.1:51102
+2026-05-16 20:42:21,736 | INFO | Thread iniciada para ('127.0.0.1', 51102) | ativas=1
+2026-05-16 20:42:21,736 | INFO | [Thread-282 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:21,736 | WARNING | [Thread-282 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:26,787 | INFO | [Thread-283 (handle_client)] conexão recebida de 127.0.0.1:51105
+2026-05-16 20:42:26,787 | INFO | Thread iniciada para ('127.0.0.1', 51105) | ativas=1
+2026-05-16 20:42:26,787 | INFO | [Thread-283 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:26,787 | WARNING | [Thread-283 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:32,429 | INFO | [Thread-284 (handle_client)] conexão recebida de 127.0.0.1:53713
+2026-05-16 20:42:32,429 | INFO | Thread iniciada para ('127.0.0.1', 53713) | ativas=1
+2026-05-16 20:42:32,429 | INFO | [Thread-284 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:32,429 | WARNING | [Thread-284 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:36,728 | INFO | [Thread-285 (handle_client)] conexão recebida de 127.0.0.1:53715
+2026-05-16 20:42:36,728 | INFO | Thread iniciada para ('127.0.0.1', 53715) | ativas=1
+2026-05-16 20:42:36,728 | INFO | [Thread-285 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:36,728 | WARNING | [Thread-285 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:42,760 | INFO | [Thread-286 (handle_client)] conexão recebida de 127.0.0.1:61437
+2026-05-16 20:42:42,760 | INFO | Thread iniciada para ('127.0.0.1', 61437) | ativas=1
+2026-05-16 20:42:42,760 | INFO | [Thread-286 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:42,760 | WARNING | [Thread-286 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:47,386 | INFO | [Thread-287 (handle_client)] conexão recebida de 127.0.0.1:61439
+2026-05-16 20:42:47,386 | INFO | Thread iniciada para ('127.0.0.1', 61439) | ativas=1
+2026-05-16 20:42:47,386 | INFO | [Thread-287 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:47,406 | WARNING | [Thread-287 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:52,414 | INFO | [Thread-288 (handle_client)] conexão recebida de 127.0.0.1:61441
+2026-05-16 20:42:52,414 | INFO | Thread iniciada para ('127.0.0.1', 61441) | ativas=1
+2026-05-16 20:42:52,415 | INFO | [Thread-288 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:52,415 | WARNING | [Thread-288 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:42:57,386 | INFO | [Thread-289 (handle_client)] conexão recebida de 127.0.0.1:61496
+2026-05-16 20:42:57,386 | INFO | Thread iniciada para ('127.0.0.1', 61496) | ativas=1
+2026-05-16 20:42:57,386 | INFO | [Thread-289 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:42:57,402 | WARNING | [Thread-289 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:02,424 | INFO | [Thread-290 (handle_client)] conexão recebida de 127.0.0.1:55584
+2026-05-16 20:43:02,425 | INFO | Thread iniciada para ('127.0.0.1', 55584) | ativas=1
+2026-05-16 20:43:02,425 | INFO | [Thread-290 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:02,425 | WARNING | [Thread-290 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:07,382 | INFO | [Thread-291 (handle_client)] conexão recebida de 127.0.0.1:59851
+2026-05-16 20:43:07,382 | INFO | Thread iniciada para ('127.0.0.1', 59851) | ativas=1
+2026-05-16 20:43:07,382 | INFO | [Thread-291 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:07,382 | WARNING | [Thread-291 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:12,440 | INFO | [Thread-292 (handle_client)] conexão recebida de 127.0.0.1:51956
+2026-05-16 20:43:12,440 | INFO | Thread iniciada para ('127.0.0.1', 51956) | ativas=1
+2026-05-16 20:43:12,440 | INFO | [Thread-292 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:12,455 | WARNING | [Thread-292 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:17,454 | INFO | [Thread-293 (handle_client)] conexão recebida de 127.0.0.1:51958
+2026-05-16 20:43:17,454 | INFO | Thread iniciada para ('127.0.0.1', 51958) | ativas=1
+2026-05-16 20:43:17,454 | INFO | [Thread-293 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:17,476 | WARNING | [Thread-293 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:22,391 | INFO | [Thread-294 (handle_client)] conexão recebida de 127.0.0.1:58833
+2026-05-16 20:43:22,391 | INFO | Thread iniciada para ('127.0.0.1', 58833) | ativas=1
+2026-05-16 20:43:22,391 | INFO | [Thread-294 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:22,391 | WARNING | [Thread-294 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:27,393 | INFO | [Thread-295 (handle_client)] conexão recebida de 127.0.0.1:58835
+2026-05-16 20:43:27,393 | INFO | Thread iniciada para ('127.0.0.1', 58835) | ativas=1
+2026-05-16 20:43:27,394 | INFO | [Thread-295 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:27,407 | WARNING | [Thread-295 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:32,445 | INFO | [Thread-296 (handle_client)] conexão recebida de 127.0.0.1:58837
+2026-05-16 20:43:32,446 | INFO | Thread iniciada para ('127.0.0.1', 58837) | ativas=1
+2026-05-16 20:43:32,446 | INFO | [Thread-296 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:32,446 | WARNING | [Thread-296 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:36,845 | INFO | [Thread-297 (handle_client)] conexão recebida de 127.0.0.1:57700
+2026-05-16 20:43:36,845 | INFO | Thread iniciada para ('127.0.0.1', 57700) | ativas=1
+2026-05-16 20:43:36,845 | INFO | [Thread-297 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:36,845 | WARNING | [Thread-297 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:41,744 | INFO | [Thread-298 (handle_client)] conexão recebida de 127.0.0.1:57702
+2026-05-16 20:43:41,744 | INFO | Thread iniciada para ('127.0.0.1', 57702) | ativas=1
+2026-05-16 20:43:41,744 | INFO | [Thread-298 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:41,744 | WARNING | [Thread-298 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:46,743 | INFO | [Thread-299 (handle_client)] conexão recebida de 127.0.0.1:57704
+2026-05-16 20:43:46,743 | INFO | Thread iniciada para ('127.0.0.1', 57704) | ativas=1
+2026-05-16 20:43:46,743 | INFO | [Thread-299 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:46,744 | WARNING | [Thread-299 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:51,806 | INFO | [Thread-300 (handle_client)] conexão recebida de 127.0.0.1:52846
+2026-05-16 20:43:51,807 | INFO | Thread iniciada para ('127.0.0.1', 52846) | ativas=1
+2026-05-16 20:43:51,807 | INFO | [Thread-300 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:51,807 | WARNING | [Thread-300 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:43:56,762 | INFO | [Thread-301 (handle_client)] conexão recebida de 127.0.0.1:52848
+2026-05-16 20:43:56,762 | INFO | Thread iniciada para ('127.0.0.1', 52848) | ativas=1
+2026-05-16 20:43:56,762 | INFO | [Thread-301 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:43:56,762 | WARNING | [Thread-301 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:01,722 | INFO | [Thread-302 (handle_client)] conexão recebida de 127.0.0.1:53364
+2026-05-16 20:44:01,722 | INFO | Thread iniciada para ('127.0.0.1', 53364) | ativas=1
+2026-05-16 20:44:01,722 | INFO | [Thread-302 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:01,722 | WARNING | [Thread-302 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:06,793 | INFO | [Thread-303 (handle_client)] conexão recebida de 127.0.0.1:53366
+2026-05-16 20:44:06,793 | INFO | Thread iniciada para ('127.0.0.1', 53366) | ativas=1
+2026-05-16 20:44:06,794 | INFO | [Thread-303 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:06,794 | WARNING | [Thread-303 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:11,727 | INFO | [Thread-304 (handle_client)] conexão recebida de 127.0.0.1:53368
+2026-05-16 20:44:11,727 | INFO | Thread iniciada para ('127.0.0.1', 53368) | ativas=1
+2026-05-16 20:44:11,727 | INFO | [Thread-304 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:11,727 | WARNING | [Thread-304 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:16,721 | INFO | [Thread-305 (handle_client)] conexão recebida de 127.0.0.1:53370
+2026-05-16 20:44:16,721 | INFO | Thread iniciada para ('127.0.0.1', 53370) | ativas=1
+2026-05-16 20:44:16,721 | INFO | [Thread-305 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:16,722 | WARNING | [Thread-305 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:21,745 | INFO | [Thread-306 (handle_client)] conexão recebida de 127.0.0.1:53372
+2026-05-16 20:44:21,745 | INFO | Thread iniciada para ('127.0.0.1', 53372) | ativas=1
+2026-05-16 20:44:21,745 | INFO | [Thread-306 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:21,745 | WARNING | [Thread-306 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:26,803 | INFO | [Thread-307 (handle_client)] conexão recebida de 127.0.0.1:53374
+2026-05-16 20:44:26,803 | INFO | Thread iniciada para ('127.0.0.1', 53374) | ativas=1
+2026-05-16 20:44:26,803 | INFO | [Thread-307 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:26,803 | WARNING | [Thread-307 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:31,725 | INFO | [Thread-308 (handle_client)] conexão recebida de 127.0.0.1:53376
+2026-05-16 20:44:31,725 | INFO | Thread iniciada para ('127.0.0.1', 53376) | ativas=1
+2026-05-16 20:44:31,725 | INFO | [Thread-308 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:31,738 | WARNING | [Thread-308 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:36,725 | INFO | [Thread-309 (handle_client)] conexão recebida de 127.0.0.1:53378
+2026-05-16 20:44:36,725 | INFO | Thread iniciada para ('127.0.0.1', 53378) | ativas=1
+2026-05-16 20:44:36,725 | INFO | [Thread-309 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:36,725 | WARNING | [Thread-309 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:41,790 | INFO | [Thread-310 (handle_client)] conexão recebida de 127.0.0.1:53380
+2026-05-16 20:44:41,790 | INFO | Thread iniciada para ('127.0.0.1', 53380) | ativas=1
+2026-05-16 20:44:41,790 | INFO | [Thread-310 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:41,790 | WARNING | [Thread-310 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:46,728 | INFO | [Thread-311 (handle_client)] conexão recebida de 127.0.0.1:53382
+2026-05-16 20:44:46,728 | INFO | Thread iniciada para ('127.0.0.1', 53382) | ativas=1
+2026-05-16 20:44:46,728 | INFO | [Thread-311 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:46,745 | WARNING | [Thread-311 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:51,729 | INFO | [Thread-312 (handle_client)] conexão recebida de 127.0.0.1:53384
+2026-05-16 20:44:51,729 | INFO | Thread iniciada para ('127.0.0.1', 53384) | ativas=1
+2026-05-16 20:44:51,729 | INFO | [Thread-312 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:51,729 | WARNING | [Thread-312 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:44:56,726 | INFO | [Thread-313 (handle_client)] conexão recebida de 127.0.0.1:53386
+2026-05-16 20:44:56,726 | INFO | Thread iniciada para ('127.0.0.1', 53386) | ativas=1
+2026-05-16 20:44:56,726 | INFO | [Thread-313 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:44:56,726 | WARNING | [Thread-313 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:01,764 | INFO | [Thread-314 (handle_client)] conexão recebida de 127.0.0.1:53404
+2026-05-16 20:45:01,764 | INFO | Thread iniciada para ('127.0.0.1', 53404) | ativas=1
+2026-05-16 20:45:01,764 | INFO | [Thread-314 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:01,778 | WARNING | [Thread-314 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:06,797 | INFO | [Thread-315 (handle_client)] conexão recebida de 127.0.0.1:53410
+2026-05-16 20:45:06,797 | INFO | Thread iniciada para ('127.0.0.1', 53410) | ativas=1
+2026-05-16 20:45:06,797 | INFO | [Thread-315 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:06,798 | WARNING | [Thread-315 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:11,733 | INFO | [Thread-316 (handle_client)] conexão recebida de 127.0.0.1:53412
+2026-05-16 20:45:11,733 | INFO | Thread iniciada para ('127.0.0.1', 53412) | ativas=1
+2026-05-16 20:45:11,733 | INFO | [Thread-316 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:11,746 | WARNING | [Thread-316 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:16,756 | INFO | [Thread-317 (handle_client)] conexão recebida de 127.0.0.1:53414
+2026-05-16 20:45:16,756 | INFO | Thread iniciada para ('127.0.0.1', 53414) | ativas=1
+2026-05-16 20:45:16,757 | INFO | [Thread-317 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:16,757 | WARNING | [Thread-317 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:21,796 | INFO | [Thread-318 (handle_client)] conexão recebida de 127.0.0.1:51579
+2026-05-16 20:45:21,796 | INFO | Thread iniciada para ('127.0.0.1', 51579) | ativas=1
+2026-05-16 20:45:21,796 | INFO | [Thread-318 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:21,796 | WARNING | [Thread-318 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:26,744 | INFO | [Thread-319 (handle_client)] conexão recebida de 127.0.0.1:59898
+2026-05-16 20:45:26,744 | INFO | Thread iniciada para ('127.0.0.1', 59898) | ativas=1
+2026-05-16 20:45:26,744 | INFO | [Thread-319 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:26,756 | WARNING | [Thread-319 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:31,745 | INFO | [Thread-320 (handle_client)] conexão recebida de 127.0.0.1:57722
+2026-05-16 20:45:31,745 | INFO | Thread iniciada para ('127.0.0.1', 57722) | ativas=1
+2026-05-16 20:45:31,745 | INFO | [Thread-320 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:31,745 | WARNING | [Thread-320 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:36,725 | INFO | [Thread-321 (handle_client)] conexão recebida de 127.0.0.1:65265
+2026-05-16 20:45:36,725 | INFO | Thread iniciada para ('127.0.0.1', 65265) | ativas=1
+2026-05-16 20:45:36,725 | INFO | [Thread-321 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:36,726 | WARNING | [Thread-321 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:45:41,836 | INFO | [Thread-322 (handle_client)] conexão recebida de 127.0.0.1:62368
+2026-05-16 20:45:41,836 | INFO | Thread iniciada para ('127.0.0.1', 62368) | ativas=1
+2026-05-16 20:45:41,836 | INFO | [Thread-322 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:45:41,836 | WARNING | [Thread-322 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:06,826 | INFO | [Thread-323 (handle_client)] conexão recebida de 127.0.0.1:61816
+2026-05-16 20:46:06,826 | INFO | Thread iniciada para ('127.0.0.1', 61816) | ativas=1
+2026-05-16 20:46:06,826 | INFO | [Thread-323 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:06,826 | WARNING | [Thread-323 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:07,064 | INFO | [Thread-324 (handle_client)] conexão recebida de 127.0.0.1:61014
+2026-05-16 20:46:07,064 | INFO | Thread iniciada para ('127.0.0.1', 61014) | ativas=1
+2026-05-16 20:46:07,064 | INFO | [Thread-324 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:07,064 | WARNING | [Thread-324 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:11,563 | INFO | [Thread-325 (handle_client)] conexão recebida de 127.0.0.1:61016
+2026-05-16 20:46:11,563 | INFO | Thread iniciada para ('127.0.0.1', 61016) | ativas=1
+2026-05-16 20:46:11,563 | INFO | [Thread-325 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:11,563 | WARNING | [Thread-325 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:16,541 | INFO | [Thread-326 (handle_client)] conexão recebida de 127.0.0.1:61020
+2026-05-16 20:46:16,541 | INFO | Thread iniciada para ('127.0.0.1', 61020) | ativas=1
+2026-05-16 20:46:16,541 | INFO | [Thread-326 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:16,541 | WARNING | [Thread-326 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:21,549 | INFO | [Thread-327 (handle_client)] conexão recebida de 127.0.0.1:61022
+2026-05-16 20:46:21,549 | INFO | Thread iniciada para ('127.0.0.1', 61022) | ativas=1
+2026-05-16 20:46:21,549 | INFO | [Thread-327 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:21,549 | WARNING | [Thread-327 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:26,525 | INFO | [Thread-328 (handle_client)] conexão recebida de 127.0.0.1:61024
+2026-05-16 20:46:26,525 | INFO | Thread iniciada para ('127.0.0.1', 61024) | ativas=1
+2026-05-16 20:46:26,525 | INFO | [Thread-328 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:26,526 | WARNING | [Thread-328 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:31,547 | INFO | [Thread-329 (handle_client)] conexão recebida de 127.0.0.1:65019
+2026-05-16 20:46:31,547 | INFO | Thread iniciada para ('127.0.0.1', 65019) | ativas=1
+2026-05-16 20:46:31,547 | INFO | [Thread-329 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:31,547 | WARNING | [Thread-329 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:36,560 | INFO | [Thread-330 (handle_client)] conexão recebida de 127.0.0.1:65021
+2026-05-16 20:46:36,560 | INFO | Thread iniciada para ('127.0.0.1', 65021) | ativas=1
+2026-05-16 20:46:36,561 | INFO | [Thread-330 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:36,561 | WARNING | [Thread-330 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:41,569 | INFO | [Thread-331 (handle_client)] conexão recebida de 127.0.0.1:65023
+2026-05-16 20:46:41,569 | INFO | Thread iniciada para ('127.0.0.1', 65023) | ativas=1
+2026-05-16 20:46:41,569 | INFO | [Thread-331 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:41,592 | WARNING | [Thread-331 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:46,528 | INFO | [Thread-332 (handle_client)] conexão recebida de 127.0.0.1:64044
+2026-05-16 20:46:46,528 | INFO | Thread iniciada para ('127.0.0.1', 64044) | ativas=1
+2026-05-16 20:46:46,528 | INFO | [Thread-332 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:46,529 | WARNING | [Thread-332 (handle_client)] 127.0.0.1 não enviou dados de autenticação
+2026-05-16 20:46:51,578 | INFO | [Thread-333 (handle_client)] conexão recebida de 127.0.0.1:64046
+2026-05-16 20:46:51,578 | INFO | Thread iniciada para ('127.0.0.1', 64046) | ativas=1
+2026-05-16 20:46:51,579 | INFO | [Thread-333 (handle_client)] aguardando auth de 127.0.0.1
+2026-05-16 20:46:51,579 | WARNING | [Thread-333 (handle_client)] 127.0.0.1 não enviou dados de autenticação

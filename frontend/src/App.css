@@ -1,0 +1,86 @@
+.react-flow {
+  background: #020617;
+}
+
+.react-flow__controls {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.react-flow__controls-button {
+  background: #0f172a;
+  border-bottom: 1px solid #1e293b;
+  color: #94a3b8;
+  fill: #94a3b8;
+}
+
+.react-flow__controls-button:hover {
+  background: #1e293b;
+}
+
+.react-flow__minimap {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2;
+}
+
+.react-flow__edge-label {
+  font-family: 'Courier New', monospace;
+}
+
+/* Legend */
+.legend {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #94a3b8;
+  font-size: 12px;
+  font-family: 'Courier New', monospace;
+  user-select: none;
+}
+
+.legend-title {
+  display: block;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 8px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.legend-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.dot.online  { background: #22c55e; box-shadow: 0 0 6px #22c55e; }
+.dot.offline { background: #ef4444; box-shadow: 0 0 6px #ef4444; }
+.dot.unknown { background: #6b7280; }
+
+/* Poll info badge */
+.poll-info {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 10px;
+  font-family: 'Courier New', monospace;
+  color: #475569;
+  user-select: none;
+}
